@@ -1,0 +1,32 @@
+=== MiniMax Token Plan 信息摘要 ===
+更新时间: 2026-03-25 11:55
+
+## 产品信息
+- 名称: Token Plan（订阅编程套餐）
+- 模型: MiniMax M2.7 / MiniMax M2.7-highspeed
+- 订阅地址: https://platform.minimaxi.com/subscribe/token-plan
+
+## 套餐价格（年付）
+
+### 标准版
+| 套餐 | 价格 | 原价 | 调用量 | Agent支持 |
+|------|------|------|--------|-----------|
+| Starter | ¥290/年 | ¥348 | 600次/5h | 1个 |
+| Plus | ¥490/年 | ¥588 | 1500次/5h | 1~2个 |
+| Max | ¥1,190/年 | ¥1,490 | 4500次/5h | 2~3个 |
+
+### 极速版（M2.7-highspeed，约100 TPS）
+| 套餐 | 价格 | 原价 | 调用量 | Agent支持 |
+|------|------|------|--------|-----------|
+| Plus 极速版 | ¥980/年 | ¥1,176 | 1500次/5h | 1~2个 |
+| Max 极速版 | ¥1,990/年 | ¥2,388 | 4500次/5h | 2~3个 |
+| Ultra 极速版 | ¥8,990/年 | ¥9,648 | 30000次/5h | 4~5个 |
+
+## 支持的AI编程工具
+Claude Code, Cursor, TRAE, OpenCode, Kilo Code, OpenClaw ✅, Cline, Roo Code, Grok CLI, Codex CLI, Droid, Zed, MonkeyCode
+
+## 推广活动
+- 邀请好友优惠：受邀者9折，邀请者获10%代金券返利
+
+## 订阅周期
+月付、季付、年付（年付最优惠）

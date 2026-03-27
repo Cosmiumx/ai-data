@@ -1,0 +1,162 @@
+🎉 最新发布 kimi k2.5 模型，支持多模态理解与处理，擅长解决更复杂的问题。
+开放平台
+联系销售
+Blog
+文档
+开发工作台
+用户中心
+CTRL K
+欢迎
+使用手册
+API 接口说明
+Chat
+Tool Use
+Partial Mode
+文件接口
+计算 Token
+查询余额
+产品定价
+模型推理定价
+联网搜索定价
+充值与限速
+常见问题
+入门指南
+Kimi K2.5 多模态模型
+Kimi K2
+使用思考模型
+开始使用 Kimi API
+使用 OpenClaw 连接 Kimi K2.5 模型
+从 OpenAI 迁移到 Kimi API
+调试工具使用说明
+多轮对话指南
+使用视觉模型
+自动断线重连
+流式输出指南
+Tool Calls 能力说明
+使用联网搜索工具
+JSON Mode 使用说明
+Partial Mode 使用说明
+文件问答指南
+开发工作台调试模型指南
+在编程工具中使用 Kimi K2 模型
+ModelScope MCP 服务器配置指南
+Kimi 官方工具集成说明
+Kimi CLI 使用指南
+Kimi K2 模型搭建 Agent 指南
+基准评估最佳实践
+Prompt 最佳实践
+组织管理最佳实践
+常见问题及解决方案
+条款与协议
+平台服务协议
+用户服务协议
+用户隐私协议
+充值协议
+Moonshot ↗
+(opens in a new tab)
+Changelog ↗
+(opens in a new tab)
+联系客服
+开发者交流群
+官方公众号
+Global | platform.moonshot.ai↗
+(opens in a new tab)
+
+目录
+
+计费基本概念
+计费单元
+产品定价
+多模态模型 kimi-k2.5
+生成模型 kimi-k2
+生成模型 Moonshot-v1
+回到顶部
+文档
+产品定价
+模型推理定价
+模型推理价格说明
+计费基本概念
+计费单元
+
+Token：代表常见的字符序列，每个汉字使用的 Token 数目可能是不同的。例如，单个汉字"夔"可能会被分解为若干 Token 的组合，而像"中国"这样短且常见的短语则可能会使用单个 Token。大致来说，对于一段通常的中文文本，1 个 Token 大约相当于 1.5-2 个汉字。具体每次调用实际产生的 Tokens 数量可以通过调用计算 Token API 来获得。
+
+计费逻辑
+
+Chat Completion 接口收费：我们对 Input 和 Output 均实行按量计费。如果您上传并抽取文档内容，并将抽取的文档内容作为 Input 传输给模型，那么文档内容也将按量计费。文件相关接口（文件内容抽取/文件存储）接口限时免费，即您只上传并抽取文档，这个API本身不会产生费用。
+
+产品定价
+多模态模型 kimi-k2.5 
+充 值
+模型
+	
+计费单位
+	
+输入价格
+（缓存命中）
+	
+输入价格
+（缓存未命中）
+	
+输出价格
+	
+模型上下文长度
+
+
+kimi-k2.5
+	1M tokens	￥0.70	￥4.00	￥21.00	262,144 tokens
+kimi-k2.5 是 Kimi 迄今最全能的模型，原生的多模态架构设计，同时支持视觉与文本输入、思考与非思考模式、对话与 Agent 任务
+模型上下文长度 256k，支持长思考擅长深度推理
+支持自动上下文缓存功能，ToolCalls、JSON Mode、Partial Mode、联网搜索功能等能力
+生成模型 kimi-k2
+模型
+	
+计费单位
+	
+输入价格
+（缓存命中）
+	
+输入价格
+（缓存未命中）
+	
+输出价格
+	
+模型上下文长度
+
+
+kimi-k2-0905-preview
+	1M tokens	￥1.00	￥4.00	￥16.00	262,144 tokens
+
+kimi-k2-0711-preview
+	1M tokens	￥1.00	￥4.00	￥16.00	131,072 tokens
+
+kimi-k2-turbo-preview
+推荐
+	1M tokens	￥1.00	￥8.00	￥58.00	262,144 tokens
+
+kimi-k2-thinking
+	1M tokens	￥1.00	￥4.00	￥16.00	262,144 tokens
+
+kimi-k2-thinking-turbo
+	1M tokens	￥1.00	￥8.00	￥58.00	262,144 tokens
+kimi-k2 是一款具备超强代码和 Agent 能力的 MoE 架构基础模型，总参数 1T，激活参数 32B。在通用知识推理、编程、数学、Agent 等主要类别的基准性能测试中，K2 模型的性能超过其他主流开源模型
+kimi-k2-0905-preview 模型上下文长度 256k，在 kimi-k2-0711-preview 能力的基础上，具备更强的 Agentic Coding 能力、更突出的前端代码的美观度和实用性、以及更好的上下文理解能力
+kimi-k2-turbo-preview 模型上下文长度 256k，是 kimi k2 的高速版本模型，始终对标最新版本的 kimi-k2 模型（kimi-k2-0905-preview）。模型参数与 kimi-k2 一致，但输出速度已提至每秒 60 tokens，最高可达每秒 100 tokens
+kimi-k2-0711-preview 模型上下文长度为 128k
+kimi-k2-thinking 模型上下文长度 256k，是具有通用 Agentic 能力和推理能力的思考模型，它擅长深度推理使用须知
+kimi-k2-thinking-turbo 模型上下文长度 256k，是 kimi-k2-thinking 模型的高速版，适用于需要深度推理和追求极致高速的场景
+支持 ToolCalls、JSON Mode、Partial Mode、联网搜索功能等，不支持视觉功能
+支持自动上下文缓存功能，缓存命中的 tokens 将按照输入价格（缓存命中）单价收费，您可以在控制台中查看"context caching"类型的费用明细
+生成模型 Moonshot-v1
+模型	计费单位	输入价格	输出价格	模型上下文长度
+moonshot-v1-8k	1M tokens	￥2.00	￥10.00	8,192 tokens
+moonshot-v1-32k	1M tokens	￥5.00	￥20.00	32,768 tokens
+moonshot-v1-128k	1M tokens	￥10.00	￥30.00	131,072 tokens
+moonshot-v1-8k-vision-preview	1M tokens	￥2.00	￥10.00	8,192 tokens
+moonshot-v1-32k-vision-preview	1M tokens	￥5.00	￥20.00	32,768 tokens
+moonshot-v1-128k-vision-preview	1M tokens	￥10.00	￥30.00	131,072 tokens
+
+此处 1M = 1,000,000，表格中的价格代表每消耗 1M tokens 的价格。
+
+Last updated on 2026年3月12日
+查询余额
+联网搜索定价

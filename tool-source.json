@@ -1,0 +1,2524 @@
+{
+  "version": "2026-03-27",
+  "categories": [
+    {
+      "slug": "model-platform",
+      "name": "模型平台",
+      "sortOrder": 1,
+      "isPublished": true
+    },
+    {
+      "slug": "ai-dev-platform",
+      "name": "AI 开发平台",
+      "sortOrder": 2,
+      "isPublished": true
+    },
+    {
+      "slug": "ai-writing",
+      "name": "AI 写作",
+      "sortOrder": 3,
+      "isPublished": true
+    },
+    {
+      "slug": "chat-assistant",
+      "name": "通用助手",
+      "sortOrder": 4,
+      "isPublished": true
+    },
+    {
+      "slug": "ai-coding",
+      "name": "AI 编程",
+      "sortOrder": 5,
+      "isPublished": true
+    },
+    {
+      "slug": "ai-image",
+      "name": "AI 图像",
+      "sortOrder": 6,
+      "isPublished": true
+    },
+    {
+      "slug": "ai-video",
+      "name": "AI 视频",
+      "sortOrder": 7,
+      "isPublished": true
+    },
+    {
+      "slug": "cloud-service",
+      "name": "云服务",
+      "sortOrder": 8,
+      "isPublished": true
+    }
+  ],
+  "tools": [
+    {
+      "slug": "aliyun-bailian",
+      "name": "阿里云百炼",
+      "vendor": "阿里云",
+      "websiteUrl": "https://www.aliyun.com/product/bailian",
+      "summary": "阿里云面向开发者的大模型调用与应用构建平台。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "agent",
+        "knowledge-base",
+        "cloud-service"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "千问3.5 首购特惠",
+          "description": "千问3.5重磅发布，首个原生多模态大模型，架构创新、能力飞跃。入门套餐首购低至4.5折，可抵扣阿里云全量模型（千问、万相、Fun-ASR等）。每百万tokens价格低至0.8元。",
+          "dealType": "DISCOUNT",
+          "discountText": "首购低至4.5折",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://www.aliyun.com/benefit/scene/ai-discount",
+          "modelSlug": "qwen3-5-plus",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "新用户免费体验额度",
+          "description": "新用户零门槛领取超7000万tokens，90天超长有效期。支持千问系列大模型和国内优质开源三方大模型。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "7000万tokens免费",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://bailian.console.aliyun.com/?spm=5176.29619931.J_SEsSjsNv72yRuRFS2VknO.5.74cd10d7NjrpzD&tab=model#/model-usage/free-quota",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "大模型节省计划-入门版",
+          "description": "50元抵100元，抵扣阿里云全系大模型，支持跨模型抵扣。消费1个月，当月抵20元，最高省50%。支持千问、万相、Fun-ASR等阿里云全系最新大模型。",
+          "dealType": "DISCOUNT",
+          "discountText": "50元抵100元",
+          "originalPrice": 100,
+          "discountedPrice": 50,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://common-buy.aliyun.com/?commodityCode=sfm_GenAI_spn_cn",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "大模型节省计划-进阶版",
+          "description": "250元抵500元，抵扣阿里云全系大模型，支持跨模型抵扣。消费3个月，每月抵20元，最高省55%。支持千问、万相、Fun-ASR等阿里云全系最新大模型。",
+          "dealType": "DISCOUNT",
+          "discountText": "250元抵500元",
+          "originalPrice": 500,
+          "discountedPrice": 250,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://common-buy.aliyun.com/?commodityCode=sfm_GenAI_spn_cn",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Lite 基础套餐",
+          "description": "适合轻量级开发任务，每月固定费用即可接入 Claude Code、Qwen Code、Qoder、Cline、OpenClaw 等主流 AI 开发工具，支持千问、GLM、Kimi、MiniMax 等最新版本模型。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "40元/月",
+          "originalPrice": null,
+          "discountedPrice": 40,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/coding-plan-index",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Pro 高级套餐",
+          "description": "复杂项目的进阶之选，适合大型开发任务需求。每月固定费用即可接入 Claude Code、Qwen Code、Qoder、Cline、OpenClaw 等主流 AI 开发工具，支持千问、GLM、Kimi、MiniMax 等最新版本模型，每月最多 90000 次请求额度。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "200元/月",
+          "originalPrice": null,
+          "discountedPrice": 200,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/coding-plan-index",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "qwen3-max",
+          "name": "Qwen3-Max",
+          "provider": "阿里云",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "qwen3-5-plus",
+          "name": "Qwen3.5-Plus",
+          "provider": "阿里云",
+          "modelType": "LLM",
+          "features": [
+            "原生多模态",
+            "视觉理解",
+            "视频理解"
+          ]
+        },
+        {
+          "slug": "qwen3-5-flash",
+          "name": "Qwen3.5-Flash",
+          "provider": "阿里云",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "qwen-vl",
+          "name": "Qwen-VL",
+          "provider": "阿里云",
+          "modelType": "VLM"
+        },
+        {
+          "slug": "wanx",
+          "name": "万相",
+          "provider": "阿里云",
+          "modelType": "IMAGE"
+        },
+        {
+          "slug": "deepseek-v3-2",
+          "name": "DeepSeek-V3.2",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "deepseek-r1",
+          "name": "DeepSeek-R1",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "kimi-k2-5",
+          "name": "Kimi-K2.5",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-5",
+          "name": "GLM-5",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "minimax-m2-5",
+          "name": "MiniMax-M2.5",
+          "provider": "稀宇科技",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "tencent-hunyuan",
+      "name": "腾讯云混元",
+      "vendor": "腾讯云",
+      "websiteUrl": "https://cloud.tencent.com/product/hunyuan",
+      "summary": "腾讯云大模型服务平台，提供混元系列模型和第三方模型接入。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "multimodal",
+        "cloud-service"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "Token Plan Lite 体验套餐",
+          "description": "新手尝鲜，入门首选。每月3500万Tokens，适合首次体验AI助手能力，可实现网页操作、文件处理、数据分析、定时任务等。支持Hunyuan、GLM-5、Kimi-K2.5、MiniMax-M2.5等模型，兼容OpenClaw、Claude Code、Cline、Cursor等工具。约70轮问答式交互。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "¥39/月",
+          "originalPrice": null,
+          "discountedPrice": 39,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.tencent.com/act/pro/tokenplan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Standard 基础套餐",
+          "description": "日常使用，高性价比。每月1亿Tokens，适合日常用AI助手办公和轻量开发，可实现批量文件处理、Demo制作、自动化工作流等。支持Hunyuan、GLM-5、Kimi-K2.5、MiniMax-M2.5等模型。约200轮问答式交互。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "¥99/月",
+          "originalPrice": null,
+          "discountedPrice": 99,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.tencent.com/act/pro/tokenplan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Pro 进阶套餐",
+          "description": "高频AI开发首选。每月3.2亿Tokens，适合每天高频使用AI的开发者和效率达人，多仓库并行、复杂逻辑生成、代码重构、Agent编排等。支持Hunyuan、GLM-5、Kimi-K2.5、MiniMax-M2.5等模型。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "¥299/月",
+          "originalPrice": null,
+          "discountedPrice": 299,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.tencent.com/act/pro/tokenplan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Max 专业套餐",
+          "description": "重度AI开发首选。每月6.5亿Tokens，适合把AI当核心生产力工具的重度用户，全栈AI生成、多Agent协同、CI自动化等。支持Hunyuan、GLM-5、Kimi-K2.5、MiniMax-M2.5等模型，速率限制优先级最高。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "¥599/月",
+          "originalPrice": null,
+          "discountedPrice": 599,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.tencent.com/act/pro/tokenplan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Lite 新客特惠",
+          "description": "新客首月7.9元，开启自动续费次月20元/月，第三月起恢复原价40元/月。每月最多18000次请求，支持Hunyuan、GLM-5、Kimi-K2.5、MiniMax-M2.5等模型，适配OpenClaw、Claude Code、Cline、Cursor等编程工具。活动时间：2026.03.05-2026.04.19。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "首月¥7.9（原价¥40/月）",
+          "originalPrice": 40,
+          "discountedPrice": 7.9,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.tencent.com/act/pro/codingplan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": "2026-03-05T00:00:00+08:00",
+          "expiresAt": "2026-04-19T00:00:00+08:00",
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Pro 新客特惠",
+          "description": "新客首月39.9元，开启自动续费次月100元/月，第三月起恢复原价200元/月。每月最多90000次请求，支持Hunyuan、GLM-5、Kimi-K2.5、MiniMax-M2.5等模型，适配OpenClaw、Claude Code、Cline、Cursor等编程工具。活动时间：2026.03.05-2026.04.19。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "首月¥39.9（原价¥200/月）",
+          "originalPrice": 200,
+          "discountedPrice": 39.9,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.tencent.com/act/pro/codingplan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": "2026-03-05T00:00:00+08:00",
+          "expiresAt": "2026-04-19T00:00:00+08:00",
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "混元生文新用户专享资源包",
+          "description": "首次开通腾讯混元大模型服务后可领取，文本生成模型共享100万token，购买之日起1年内有效。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "100万token免费体验",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://hunyuan.cloud.tencent.com/#/app/apiKeyManage",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Embedding 新用户专享资源包",
+          "description": "首次开通腾讯混元大模型服务后可领取，embedding 模型专属100万token，购买之日起1年内有效。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "100万token免费体验",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://hunyuan.cloud.tencent.com/#/app/apiKeyManage",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "混元生图（2.0）免费资源包",
+          "description": "开通服务后赠送50次免费体验额度，开通后自动发放。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "50次免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/aiart",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "混元生图（极速版）免费资源包",
+          "description": "开通服务后赠送50次免费体验额度，开通后自动发放。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "50次免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/aiart",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "图像风格化免费资源包",
+          "description": "开通服务后赠送50次免费体验额度，开通后自动发放。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "50次免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/aiart",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "商品背景生成免费资源包",
+          "description": "开通服务后赠送50次免费体验额度，开通后自动发放。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "50次免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/aiart",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "混元生视频免费资源包",
+          "description": "开通服务后赠送50积分免费体验额度，前往控制台领取。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "50积分免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/vtc/resource/hunYuan-create-video",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "视频风格化免费资源包",
+          "description": "开通服务后赠送5分钟免费体验额度，前往控制台领取。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "5分钟免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/vtc/resource/video-stylization",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "图片跳舞免费资源包",
+          "description": "开通服务后赠送5次免费体验额度，前往控制台领取。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "5次免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/vtc/resource/image-dance",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "图片唱演免费资源包",
+          "description": "开通服务后赠送5分钟免费体验额度，前往控制台领取。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "5分钟免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/vtc/resource/picture-singing",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "混元生3D新用户专享资源包",
+          "description": "开通服务后赠送10个免费体验额度，开通后自动发放。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "10个免费体验额度",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://console.cloud.tencent.com/hunyuan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "hunyuan-2-0-instruct",
+          "name": "Hunyuan-2.0-Instruct",
+          "provider": "腾讯",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "hunyuan-2-0-thinking",
+          "name": "Hunyuan-2.0-Thinking",
+          "provider": "腾讯",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "hunyuan-t1",
+          "name": "Hunyuan-T1",
+          "provider": "腾讯",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "hunyuan-turbos",
+          "name": "Hunyuan-TurboS",
+          "provider": "腾讯",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "hunyuan-lite",
+          "name": "Hunyuan-Lite",
+          "provider": "腾讯",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-5-tencent",
+          "name": "GLM-5",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "kimi-k2-5-tencent",
+          "name": "Kimi-K2.5",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "minimax-m2-5-tencent",
+          "name": "MiniMax-M2.5",
+          "provider": "稀宇科技",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "baidu-qianfan",
+      "name": "百度千帆",
+      "vendor": "百度智能云",
+      "websiteUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+      "summary": "百度面向企业和开发者的大模型平台，支持文心系列和第三方模型。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "enterprise",
+        "cloud-service"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "Coding Plan Lite",
+          "description": "满足基础开发需求，适合入门级开发场景。每月最多18000次请求，适配Claude Code等AI开发工具，支持GLM-5、MiniMax-M2.5、Kimi-K2.5等模型。",
+          "dealType": "DISCOUNT",
+          "discountText": "¥40/月",
+          "originalPrice": null,
+          "discountedPrice": 40,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://cloud.baidu.com/product/wenxinworkshop#coding-plan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Pro",
+          "description": "满足复杂开发需求，适合专业开发场景。每月最多90000次请求，适配Claude Code等AI开发工具，支持GLM-5、MiniMax-M2.5、Kimi-K2.5、DeepSeek-V3.2等模型。",
+          "dealType": "DISCOUNT",
+          "discountText": "¥200/月",
+          "originalPrice": null,
+          "discountedPrice": 200,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://cloud.baidu.com/product/wenxinworkshop#coding-plan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "ernie-4-5-turbo",
+          "name": "ERNIE-4.5-Turbo",
+          "provider": "百度",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "ernie-x1-turbo",
+          "name": "ERNIE-X1-Turbo",
+          "provider": "百度",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "deepseek-v3",
+          "name": "DeepSeek-V3",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "deepseek-r1",
+          "name": "DeepSeek-R1",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "volcengine-ark",
+      "name": "火山方舟",
+      "vendor": "火山引擎",
+      "websiteUrl": "https://www.volcengine.com/product/ark",
+      "summary": "字节跳动旗下大模型服务平台，提供豆包系列模型及第三方模型接入，支持Coding Plan编程套餐。",
+      "description": "火山方舟是火山引擎推出的大模型服务平台，搭载豆包及业界主流大模型。提供模型推理、精调、评测等全流程服务，支持Coding Plan编程套餐。兼容OpenClaw、Claude Code、Cursor等AI编程工具。",
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "multimodal",
+        "video-generation",
+        "cloud-service"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "Coding Plan Lite 编程套餐",
+          "description": "个人开发者轻量化工具，主流国产编程模型全覆盖，多生态兼容，模型工具不限。支持接入Claude Code、OpenClaw、Cursor、Cline等主流AI编程工具。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "首购40元/月，续费40元/月",
+          "originalPrice": null,
+          "discountedPrice": 40,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%7D&advancedActiveKey=subscribe",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Pro 编程套餐",
+          "description": "高阶用户大规模编程需求，主流国产编程模型全覆盖，多生态兼容，模型工具不限。支持接入Claude Code、OpenClaw、Cursor、Cline等主流AI编程工具。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "首购200元/月，续费200元/月",
+          "originalPrice": null,
+          "discountedPrice": 200,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%7D&advancedActiveKey=subscribe",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan 首月优惠",
+          "description": "订阅Coding Plan首月低至9.9元，模型自由，工具不限，解锁多重生产力。",
+          "dealType": "DISCOUNT",
+          "discountText": "首月低至9.9元",
+          "originalPrice": 40,
+          "discountedPrice": 9.9,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://console.volcengine.com/ark/region:ark+cn-beijing/codingPlan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "auto-volcengine",
+          "name": "Auto",
+          "provider": "火山方舟",
+          "modelType": "LLM",
+          "features": [
+            "智能调度",
+            "效果+速度优化"
+          ]
+        },
+        {
+          "slug": "doubao-seed-2-0-code",
+          "name": "Doubao-Seed-2.0-Code",
+          "provider": "字节跳动",
+          "modelType": "LLM",
+          "features": [
+            "编程模型",
+            "前端出众",
+            "多语言适配"
+          ]
+        },
+        {
+          "slug": "doubao-seed-2-0-pro",
+          "name": "Doubao-Seed-2.0-pro",
+          "provider": "字节跳动",
+          "modelType": "LLM",
+          "features": [
+            "旗舰级",
+            "多模态理解",
+            "长上下文推理"
+          ]
+        },
+        {
+          "slug": "doubao-seed-2-0-lite",
+          "name": "Doubao-Seed-2.0-lite",
+          "provider": "字节跳动",
+          "modelType": "LLM",
+          "features": [
+            "生产级",
+            "内容创作",
+            "数据分析"
+          ]
+        },
+        {
+          "slug": "doubao-seed-code",
+          "name": "Doubao-Seed-Code",
+          "provider": "字节跳动",
+          "modelType": "LLM",
+          "features": [
+            "编程模型",
+            "代码生成",
+            "任务调度"
+          ]
+        },
+        {
+          "slug": "minimax-m2-5-volcengine",
+          "name": "MiniMax-M2.5",
+          "provider": "MiniMax",
+          "modelType": "LLM",
+          "features": [
+            "编程",
+            "工具调用",
+            "搜索"
+          ]
+        },
+        {
+          "slug": "kimi-k2-5-volcengine",
+          "name": "Kimi-K2.5",
+          "provider": "月之暗面",
+          "modelType": "LLM",
+          "features": [
+            "编程模型",
+            "前端代码",
+            "设计表现力"
+          ]
+        },
+        {
+          "slug": "glm-4-7-volcengine",
+          "name": "GLM-4.7",
+          "provider": "智谱AI",
+          "modelType": "LLM",
+          "features": [
+            "代码大模型",
+            "长代码库",
+            "Agent任务"
+          ]
+        },
+        {
+          "slug": "deepseek-v3-2-volcengine",
+          "name": "DeepSeek-V3.2",
+          "provider": "深度求索",
+          "modelType": "LLM",
+          "features": [
+            "平衡推理",
+            "通用问答",
+            "代码开发"
+          ]
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "zhipu-bigmodel",
+      "name": "智谱AI",
+      "vendor": "智谱AI",
+      "websiteUrl": "https://open.bigmodel.cn",
+      "summary": "国产自研大模型厂商，GLM系列模型提供商。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "chinese-model"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "GLM Coding Plan Lite",
+          "description": "适合小型Repo轻量级迭代，3x Claude Pro用量额度。支持Claude Code、OpenClaw等20+编程工具。连续包季享9折。",
+          "dealType": "DISCOUNT",
+          "discountText": "¥49/月（包季¥44.1）",
+          "originalPrice": 49,
+          "discountedPrice": 44.1,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://open.bigmodel.cn/glm-coding-plan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "GLM Coding Plan Pro",
+          "description": "最受欢迎，5x Lite用量额度+Lite全量权益。适合中型Repo日常开发，优先体验最新旗舰模型。连续包季享9折。",
+          "dealType": "DISCOUNT",
+          "discountText": "¥149/月（包季¥134.1）",
+          "originalPrice": 149,
+          "discountedPrice": 134.1,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://open.bigmodel.cn/glm-coding-plan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "GLM Coding Plan Max",
+          "description": "量大管饱，20x Lite用量额度+Pro全量权益。适合高阶用户中大型Repo深度开发，首发接入最新旗舰模型。连续包季享9折。",
+          "dealType": "DISCOUNT",
+          "discountText": "¥469/月（包季¥422.1）",
+          "originalPrice": 469,
+          "discountedPrice": 422.1,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://open.bigmodel.cn/glm-coding-plan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "GLM-4.7-Flash 免费模型",
+          "description": "GLM-4.7-Flash模型完全免费，输入输出均不收费，适合轻量级调用场景。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "完全免费",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://open.bigmodel.cn/pricing",
+          "modelSlug": "glm-4-7-flash",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "glm-4-7",
+          "name": "GLM-4.7",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-4-7-flash",
+          "name": "GLM-4.7-Flash",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-5",
+          "name": "GLM-5",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-5-turbo",
+          "name": "GLM-5-Turbo",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "siliconflow",
+      "name": "硅基流动",
+      "vendor": "硅基流动",
+      "websiteUrl": "https://siliconflow.cn",
+      "summary": "提供DeepSeek、Qwen等开源模型的API服务，多个模型免费使用，响应快，兼容OpenAI SDK。",
+      "description": "硅基流动（SiliconFlow）是一站式大模型云服务平台，提供高速推理、高性价比的模型API。支持DeepSeek-R1、DeepSeek-V3、Qwen2.5等主流开源模型，多个模型永久免费。",
+      "logo": null,
+      "categories": [
+        "model-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "open-source",
+        "free-models"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "实名认证送免费模型额度",
+          "description": "完成实名认证后可使用全部免费模型，包括Qwen2.5-7B、GLM-4-9B-Chat、DeepSeek-V3等。免费模型调用免费，账单中费用为0。免费版模型按原名命名（如Qwen/Qwen2.5-7B-Instruct），收费版加Pro/前缀。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "多个模型永久免费",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://cloud.siliconflow.cn/models",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "新用户注册送余额",
+          "description": "新用户注册后可获得账户余额，用于体验付费模型。具体金额以平台活动为准。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "注册送余额",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://cloud.siliconflow.cn",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "DeepSeek-R1 免费体验",
+          "description": "DeepSeek-R1推理模型免费使用，支持复杂推理任务。实名认证后即可使用。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "DeepSeek-R1免费",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://cloud.siliconflow.cn/models",
+          "modelSlug": "deepseek-r1-siliconflow",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "DeepSeek-V3 免费体验",
+          "description": "DeepSeek-V3大模型免费使用，支持通用对话和代码生成。实名认证后即可使用。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "DeepSeek-V3免费",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://cloud.siliconflow.cn/models",
+          "modelSlug": "deepseek-v3-siliconflow",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "用量级别自动升级",
+          "description": "根据月消费金额自动升级用量级别（L0-L5），级别越高Rate Limits峰值越大。L1需月消费≥50元，L2需≥200元，L3需≥2000元，L4需≥5000元，L5需≥10000元。",
+          "dealType": "DISCOUNT",
+          "discountText": "月消费升级Rate Limits",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.siliconflow.cn/bills",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "deepseek-r1-siliconflow",
+          "name": "DeepSeek-R1",
+          "provider": "深度求索",
+          "modelType": "LLM",
+          "features": [
+            "推理模型",
+            "免费"
+          ]
+        },
+        {
+          "slug": "deepseek-v3-siliconflow",
+          "name": "DeepSeek-V3",
+          "provider": "深度求索",
+          "modelType": "LLM",
+          "features": [
+            "免费"
+          ]
+        },
+        {
+          "slug": "qwen2-5-7b-siliconflow",
+          "name": "Qwen2.5-7B-Instruct",
+          "provider": "阿里云",
+          "modelType": "LLM",
+          "features": [
+            "免费"
+          ]
+        },
+        {
+          "slug": "qwen2-5-72b-siliconflow",
+          "name": "Qwen2.5-72B-Instruct",
+          "provider": "阿里云",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-4-9b-siliconflow",
+          "name": "GLM-4-9B-Chat",
+          "provider": "智谱AI",
+          "modelType": "LLM",
+          "features": [
+            "免费"
+          ]
+        },
+        {
+          "slug": "qwq-32b-siliconflow",
+          "name": "QwQ-32B",
+          "provider": "阿里云",
+          "modelType": "LLM",
+          "features": [
+            "推理模型"
+          ]
+        },
+        {
+          "slug": "kolors-siliconflow",
+          "name": "Kolors",
+          "provider": "快手",
+          "modelType": "IMAGE"
+        },
+        {
+          "slug": "hunyuanvideo-siliconflow",
+          "name": "HunyuanVideo-HD",
+          "provider": "腾讯",
+          "modelType": "VIDEO"
+        },
+        {
+          "slug": "cosyvoice-siliconflow",
+          "name": "CosyVoice2-0.5B",
+          "provider": "阿里云",
+          "modelType": "TTS"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "minimax",
+      "name": "MiniMax",
+      "vendor": "稀宇科技",
+      "websiteUrl": "https://www.minimaxi.com",
+      "summary": "国产大模型厂商，M2.5系列模型提供商。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "chinese-model"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "Token Plan Starter",
+          "description": "适合入门级开发场景，600次模型调用/5小时，支持约1个OpenClaw agent。支持主流编程工具，支持图像理解、联网搜索MCP。页面展示年付 ¥290/年（原价 ¥348/年），折算约 ¥24.17/月。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "约¥24.17/月",
+          "originalPrice": 29,
+          "discountedPrice": 24.17,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY",
+            "YEARLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+          "modelSlug": "minimax-m2-7",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Plus",
+          "description": "适合专业开发场景，1500次模型调用/5小时，约1~2个OpenClaw agent。可生成图像和语音，2.5倍Starter套餐用量。页面展示年付 ¥490/年（原价 ¥588/年），折算约 ¥40.83/月。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "约¥40.83/月",
+          "originalPrice": 49,
+          "discountedPrice": 40.83,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY",
+            "YEARLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+          "modelSlug": "minimax-m2-7",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Max",
+          "description": "适合高级开发场景，4500次模型调用/5小时，约2~3个OpenClaw agent。可生成图像、语音、音乐和视频，7.5倍Starter套餐用量。页面展示年付 ¥1190/年（原价 ¥1490/年），折算约 ¥99.17/月。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "约¥99.17/月",
+          "originalPrice": 124.17,
+          "discountedPrice": 99.17,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY",
+            "YEARLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+          "modelSlug": "minimax-m2-7",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Plus 极速版",
+          "description": "高速版，使用MiniMax-M2.7-highspeed模型，约100 TPS极速推理，同类产品3倍生成速度。1500次模型调用/5小时，约1~2个OpenClaw agent。页面展示年付 ¥980/年（原价 ¥1176/年），折算约 ¥81.67/月。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "约¥81.67/月",
+          "originalPrice": 98,
+          "discountedPrice": 81.67,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY",
+            "YEARLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+          "modelSlug": "minimax-m2-7-highspeed",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Max 极速版",
+          "description": "高速版，使用MiniMax-M2.7-highspeed模型，约100 TPS极速推理。4500次模型调用/5小时，约2~3个OpenClaw agent。页面展示年付 ¥1990/年（原价 ¥2388/年），折算约 ¥165.83/月。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "约¥165.83/月",
+          "originalPrice": 199,
+          "discountedPrice": 165.83,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY",
+            "YEARLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+          "modelSlug": "minimax-m2-7-highspeed",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Token Plan Ultra 极速版",
+          "description": "最高级套餐，30000次模型调用/5小时，适合团队使用。约100 TPS极速推理，约4~5个OpenClaw agent，可生成图像、语音、音乐和视频。页面展示年付 ¥8990/年（原价 ¥9648/年），折算约 ¥749.17/月。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "约¥749.17/月",
+          "originalPrice": 804,
+          "discountedPrice": 749.17,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY",
+            "YEARLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+          "modelSlug": "minimax-m2-7-highspeed",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "邀请好友优惠",
+          "description": "邀请好友订阅Token Plan，好友享9折优惠，邀请者获10%代金券返利。",
+          "dealType": "DISCOUNT",
+          "discountText": "受邀者9折，邀请者10%返利",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "minimax-m2-7",
+          "name": "MiniMax-M2.7",
+          "provider": "稀宇科技",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "minimax-m2-7-highspeed",
+          "name": "MiniMax-M2.7-highspeed",
+          "provider": "稀宇科技",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "infini-ai",
+      "name": "无问芯穹",
+      "vendor": "无问芯穹",
+      "websiteUrl": "https://cloud.infini-ai.com",
+      "summary": "无问芯穹提供 Infini Coding Plan、大模型服务专区和极值算力专区，支持企业级 API 服务与灵活付费。",
+      "description": "无问芯穹是一站式 AI 平台，覆盖大模型服务、编程套餐、极值算力、AI 容器与智能体服务。官网展示 Infini Coding Lite / Pro 两档编程套餐，支持 Minimax、GLM、DeepSeek、Kimi 等最新模型，并适配 Claude Code、Cline 等主流编程工具。",
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform",
+        "cloud-service"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "coding-plan",
+        "gpu",
+        "agent"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "Infini Coding Lite",
+          "description": "满足入门级开发场景需求；支持 Minimax、GLM、DeepSeek、Kimi 等最新模型，Day0 上新；适配 Claude Code、Cline 等主流编程工具，持续更新。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "19.9元/月，原价40元/月；1000次请求每5小时",
+          "originalPrice": 40,
+          "discountedPrice": 19.9,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.infini-ai.com",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Infini Coding Pro",
+          "description": "满足专业高级开发场景需求；支持 Minimax、GLM、DeepSeek、Kimi 等最新模型，Day0 上新；适配 Claude Code、Cline 等主流编程工具，持续更新。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "99.9元/月，原价200元/月；5000次请求每5小时；5倍Lite套餐用量",
+          "originalPrice": 200,
+          "discountedPrice": 99.9,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://cloud.infini-ai.com",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "极值算力专区",
+          "description": "即买即用的极致性价比算力服务，支持自动重调度、灵活弹性与按需付费。",
+          "dealType": "PAYG",
+          "discountText": "按量付费",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://cloud.infini-ai.com/opticompute/purchase",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "ComfyUI 云端部署",
+          "description": "面向企业级生产的 ComfyUI 云端部署与 API 服务，灵活付费。",
+          "dealType": "PAYG",
+          "discountText": "灵活付费",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://cloud.infini-ai.com/comfystack/workflow",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "infini-coding-lite",
+          "name": "Infini Coding Lite",
+          "provider": "无问芯穹",
+          "modelType": "LLM",
+          "features": [
+            "1000次请求每5小时",
+            "入门级开发",
+            "Day0上新",
+            "Claude Code",
+            "Cline"
+          ]
+        },
+        {
+          "slug": "infini-coding-pro",
+          "name": "Infini Coding Pro",
+          "provider": "无问芯穹",
+          "modelType": "LLM",
+          "features": [
+            "5000次请求每5小时",
+            "5倍Lite套餐用量",
+            "高级开发",
+            "Day0上新",
+            "Claude Code",
+            "Cline"
+          ]
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "hpccube",
+      "name": "国家超算平台",
+      "vendor": "国家超算",
+      "websiteUrl": "https://www.hpccube.com",
+      "summary": "国家超算平台提供模型API、OpenClaw 等快捷入口，并上线多项 Tokens 与算力福利活动。",
+      "description": "国家超算平台（hpccube）登录后控制台展示模型API、OpenClaw、Material Calculation Agent 等入口，并发布平台活动，包括 Tokens 免费额度、低价续用，以及开学算力加油包、万卡超算领航计划等。",
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform",
+        "cloud-service"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "government",
+        "free",
+        "gpu",
+        "openclaw"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "最高3000万Tokens免费领",
+          "description": "免费额度加码至3000万，续用低至0.1元/百万Tokens。新用户注册、云上部署龙虾、客户端体验Sclaw均可叠加领取。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "最高3000万Tokens免费领，续用低至0.1元/百万Tokens",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://www.hpccube.com/ui/acw/index.html#/message-center/announcement/detail?id=2036712012970483712",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": "2026-03-25T15:49:18+08:00",
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "开学算力加油包",
+          "description": "满月献礼活动，提供2000核时+800卡时+2千万Tokens免费领，热门算力低至4折；同时开放万卡超算领航计划和核心节点邀测计划。",
+          "dealType": "DISCOUNT",
+          "discountText": "2000核时+800卡时+2千万Tokens免费领，热门算力低至4折",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://www.hpccube.com/ui/acw/index.html#/message-center/announcement/detail?id=2029889586847244288",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": "2026-03-06T19:59:25+08:00",
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "minimax-m2-5-hpc",
+          "name": "MiniMax-M2.5",
+          "provider": "稀宇科技",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "deepseek-v3-2-hpc",
+          "name": "DeepSeek-V3.2",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "qwen3-235b",
+          "name": "Qwen3-235B-A22B",
+          "provider": "阿里云",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "kimi",
+      "name": "Kimi",
+      "vendor": "月之暗面",
+      "websiteUrl": "https://platform.moonshot.cn",
+      "summary": "月之暗面 Kimi API 开放平台，提供 kimi-k2.5、kimi-k2 与 Moonshot-v1 系列模型推理服务。",
+      "description": "Kimi API 开放平台提供多模态模型 kimi-k2.5、代码与 Agent 能力突出的 kimi-k2 系列，以及 Moonshot-v1 系列。支持上下文缓存、ToolCalls、JSON Mode、联网搜索等能力，按输入/输出 Tokens 计费。",
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "chinese-model",
+        "multimodal",
+        "agent"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "kimi-k2.5 多模态模型",
+          "description": "输入缓存命中 0.70元/1M tokens，输入缓存未命中 4.00元/1M tokens，输出 21.00元/1M tokens；上下文长度 262,144 tokens。",
+          "dealType": "PAYG",
+          "discountText": "输入低至0.70元/1M tokens",
+          "originalPrice": null,
+          "discountedPrice": 0.7,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://platform.moonshot.cn/docs/pricing/chat",
+          "modelSlug": "kimi-k2-5",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "kimi-k2 系列模型",
+          "description": "kimi-k2-0905-preview / 0711-preview / thinking 输入缓存命中 1.00元/1M tokens，输入缓存未命中 4.00元/1M tokens，输出 16.00元/1M tokens。",
+          "dealType": "PAYG",
+          "discountText": "输入低至1.00元/1M tokens",
+          "originalPrice": null,
+          "discountedPrice": 1.0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://platform.moonshot.cn/docs/pricing/chat",
+          "modelSlug": "kimi-k2",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "kimi-k2 Turbo / Thinking Turbo",
+          "description": "输入缓存命中 1.00元/1M tokens，输入缓存未命中 8.00元/1M tokens，输出 58.00元/1M tokens；上下文长度 262,144 tokens。",
+          "dealType": "PAYG",
+          "discountText": "高速版输入低至1.00元/1M tokens",
+          "originalPrice": null,
+          "discountedPrice": 1.0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://platform.moonshot.cn/docs/pricing/chat",
+          "modelSlug": "kimi-k2-turbo-preview",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Moonshot-v1 系列",
+          "description": "moonshot-v1-8k 输入 2.00元/1M tokens、输出 10.00元/1M tokens；32k 输入 5.00元、输出 20.00元；128k 输入 10.00元、输出 30.00元。",
+          "dealType": "PAYG",
+          "discountText": "输入低至2.00元/1M tokens",
+          "originalPrice": null,
+          "discountedPrice": 2.0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://platform.moonshot.cn/docs/pricing/chat",
+          "modelSlug": "moonshot-v1-8k",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "kimi-k2-5",
+          "name": "Kimi-K2.5",
+          "provider": "月之暗面",
+          "modelType": "LLM",
+          "features": [
+            "多模态",
+            "256k上下文",
+            "缓存计费"
+          ]
+        },
+        {
+          "slug": "kimi-k2-0905-preview",
+          "name": "kimi-k2-0905-preview",
+          "provider": "月之暗面",
+          "modelType": "LLM",
+          "features": [
+            "Agentic Coding",
+            "256k上下文"
+          ]
+        },
+        {
+          "slug": "kimi-k2-0711-preview",
+          "name": "kimi-k2-0711-preview",
+          "provider": "月之暗面",
+          "modelType": "LLM",
+          "features": [
+            "128k上下文"
+          ]
+        },
+        {
+          "slug": "kimi-k2-turbo-preview",
+          "name": "kimi-k2-turbo-preview",
+          "provider": "月之暗面",
+          "modelType": "LLM",
+          "features": [
+            "高速版",
+            "最高100 tokens/s"
+          ]
+        },
+        {
+          "slug": "kimi-k2-thinking",
+          "name": "kimi-k2-thinking",
+          "provider": "月之暗面",
+          "modelType": "LLM",
+          "features": [
+            "思考模型",
+            "深度推理"
+          ]
+        },
+        {
+          "slug": "kimi-k2-thinking-turbo",
+          "name": "kimi-k2-thinking-turbo",
+          "provider": "月之暗面",
+          "modelType": "LLM",
+          "features": [
+            "思考高速版",
+            "深度推理"
+          ]
+        },
+        {
+          "slug": "moonshot-v1-8k",
+          "name": "moonshot-v1-8k",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "moonshot-v1-32k",
+          "name": "moonshot-v1-32k",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "moonshot-v1-128k",
+          "name": "moonshot-v1-128k",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "nvidia-nim",
+      "name": "NVIDIA NIM",
+      "vendor": "NVIDIA",
+      "websiteUrl": "https://build.nvidia.com",
+      "summary": "NVIDIA提供的模型推理服务，支持多款前沿模型。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "inference"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [],
+      "models": [
+        {
+          "slug": "kimi-k2-5-nim",
+          "name": "Kimi K2.5",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "minimax-m2-1-nim",
+          "name": "MiniMax M2.1",
+          "provider": "稀宇科技",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-4-7-nim",
+          "name": "GLM-4.7",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "vendor": "OpenAI",
+      "websiteUrl": "https://openai.com",
+      "summary": "覆盖通用问答、写作、图像和多模态能力的主流AI服务商。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "chat-assistant"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "multimodal",
+        "chat"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [],
+      "models": [
+        {
+          "slug": "gpt-4-1",
+          "name": "GPT-4.1",
+          "provider": "OpenAI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "gpt-4-1-mini",
+          "name": "GPT-4.1-mini",
+          "provider": "OpenAI",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "vendor": "Anthropic",
+      "websiteUrl": "https://www.anthropic.com",
+      "summary": "Claude系列模型提供商，擅长长文本理解、写作和代码。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "chat-assistant"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "chat",
+        "coding"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [],
+      "models": [
+        {
+          "slug": "claude-opus-4-6",
+          "name": "Claude Opus 4.6",
+          "provider": "Anthropic",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "claude-sonnet-4-6",
+          "name": "Claude Sonnet 4.6",
+          "provider": "Anthropic",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "claude-haiku-4-5",
+          "name": "Claude Haiku 4.5",
+          "provider": "Anthropic",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "google-gemini",
+      "name": "Google Gemini",
+      "vendor": "Google",
+      "websiteUrl": "https://ai.google.dev",
+      "summary": "Google多模态大模型平台，提供Gemini系列模型。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "chat-assistant"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "multimodal"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [],
+      "models": [],
+      "isPublished": true
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "vendor": "深度求索",
+      "websiteUrl": "https://platform.deepseek.com",
+      "summary": "国产大模型厂商，DeepSeek系列模型提供商。",
+      "description": null,
+      "logo": null,
+      "categories": [
+        "model-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "chinese-model",
+        "coding"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [],
+      "models": [
+        {
+          "slug": "deepseek-v3-2-ds",
+          "name": "DeepSeek-V3.2",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "deepseek-r1-ds",
+          "name": "DeepSeek-R1",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "sophnet",
+      "name": "SophNet",
+      "vendor": "SophNet",
+      "websiteUrl": "https://sophnet.com",
+      "summary": "企业级云算力平台，提供DeepSeek、Qwen、Kimi等多模型API服务，支持文本、语音、图片、视频等多模态。",
+      "description": "SophNet专为企业内部的开发者设计的云算力平台，提供快速接入大模型能力。支持DeepSeek V3.2、R1、Qwen3系列、Kimi-K2.5等主流模型，以及Kling、Hailuo、Wan等视频生成模型。具备智能负载均衡、容灾、全面监控等功能。",
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "multimodal",
+        "video-generation",
+        "enterprise"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "新用户注册送余额",
+          "description": "新用户注册即可获得账户余额，用于体验平台各项模型服务。具体金额以平台活动为准。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "注册送体验金",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://www.sophnet.com/#/organization/overview",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "MiMo-V2-Flash 超低价",
+          "description": "MiMo-V2-Flash模型输入0.7元/百万Token，输出2.1元/百万Token，性价比极高。",
+          "dealType": "DISCOUNT",
+          "discountText": "输入¥0.7/百万Token",
+          "originalPrice": null,
+          "discountedPrice": 0.7,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://sophnet.com/docs/component/fee.html",
+          "modelSlug": "mimo-v2-flash-sophnet",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Qwen2.5-7B-Instruct 超低价",
+          "description": "Qwen2.5-7B-Instruct模型输入0.5元/百万Token，输出1元/百万Token，适合轻量级任务。",
+          "dealType": "DISCOUNT",
+          "discountText": "输入¥0.5/百万Token",
+          "originalPrice": null,
+          "discountedPrice": 0.5,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://sophnet.com/docs/component/fee.html",
+          "modelSlug": "qwen2-5-7b-sophnet",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "DeepSeek-R1-Distill-Qwen-7B 超低价",
+          "description": "DeepSeek-R1-Distill-Qwen-7B推理模型，输入0.5元/百万Token，输出1元/百万Token。",
+          "dealType": "DISCOUNT",
+          "discountText": "输入¥0.5/百万Token",
+          "originalPrice": null,
+          "discountedPrice": 0.5,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://sophnet.com/docs/component/fee.html",
+          "modelSlug": "deepseek-r1-distill-qwen-7b-sophnet",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "知识库文件存储免费额度",
+          "description": "组织下前50个文件存储免费，超出部分按1元/1G/月计费。RAG检索暂不收费。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "前50个文件免费存储",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://sophnet.com/docs/component/fee.html",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "deepseek-v3-2-fast-sophnet",
+          "name": "DeepSeek V3.2 Fast",
+          "provider": "深度求索",
+          "modelType": "LLM",
+          "features": [
+            "高速推理"
+          ]
+        },
+        {
+          "slug": "deepseek-v3-2-sophnet",
+          "name": "DeepSeek V3.2",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "deepseek-r1-sophnet",
+          "name": "DeepSeek R1",
+          "provider": "深度求索",
+          "modelType": "LLM",
+          "features": [
+            "推理模型"
+          ]
+        },
+        {
+          "slug": "qwen3-coder-sophnet",
+          "name": "Qwen3-Coder",
+          "provider": "阿里云",
+          "modelType": "LLM",
+          "features": [
+            "代码生成"
+          ]
+        },
+        {
+          "slug": "kimi-k2-5-sophnet",
+          "name": "Kimi-K2.5",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-4-7-sophnet",
+          "name": "GLM-4.7",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "mimo-v2-flash-sophnet",
+          "name": "MiMo-V2-Flash",
+          "provider": "小米",
+          "modelType": "LLM",
+          "features": [
+            "超低价"
+          ]
+        },
+        {
+          "slug": "kling-v3-sophnet",
+          "name": "Kling-V3",
+          "provider": "快手",
+          "modelType": "VIDEO"
+        },
+        {
+          "slug": "hailuo-2-3-sophnet",
+          "name": "Hailuo-2.3",
+          "provider": "MiniMax",
+          "modelType": "VIDEO"
+        },
+        {
+          "slug": "wan2-6-sophnet",
+          "name": "Wan2.6-T2V/I2V",
+          "provider": "阿里云",
+          "modelType": "VIDEO"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "vendor": "OpenRouter",
+      "websiteUrl": "https://openrouter.ai",
+      "summary": "统一API接入300+AI模型，支持OpenAI、Anthropic、DeepSeek、Llama等，提供免费模型、智能路由、自动回退。",
+      "description": "OpenRouter是AI模型聚合平台，提供统一的OpenAI兼容API，支持300+模型。特性包括：免费模型路由器、提供商智能路由、自动回退、提示词缓存、多模态支持。兼容Claude Code、OpenClaw、Cursor等工具。",
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform"
+      ],
+      "tags": [
+        "llm",
+        "api",
+        "multimodal",
+        "free-models",
+        "routing"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "Free Models Router 免费模型路由",
+          "description": "使用 openrouter/free 自动路由到免费模型。支持DeepSeek R1、Llama、Trinity等免费模型。免费模型适合实验、学习和低频使用场景。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "多个模型永久免费",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "USD",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://openrouter.ai/models?q=is_free%3Atrue",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": ":free 变体免费访问",
+          "description": "在任何模型ID后添加 :free 即可访问免费版本。例如：meta-llama/llama-3.2-3b-instruct:free。免费版本可能有不同的速率限制。",
+          "dealType": "LIMITED_FREE",
+          "discountText": ":free后缀免费访问",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "USD",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://openrouter.ai/docs/guides/routing/model-variants/free",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "DeepSeek R1 免费体验",
+          "description": "DeepSeek R1推理模型免费使用，支持复杂推理任务。通过Free Models Router或 :free 变体访问。",
+          "dealType": "LIMITED_FREE",
+          "discountText": "DeepSeek R1免费",
+          "originalPrice": null,
+          "discountedPrice": 0,
+          "currency": "USD",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://openrouter.ai/models?q=is_free%3Atrue",
+          "modelSlug": "deepseek-r1-openrouter",
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Prompt Caching 提示词缓存",
+          "description": "支持OpenAI、Anthropic Claude、DeepSeek、Google Gemini等模型的提示词缓存。缓存读取价格低至原价的0.25x-0.5x，大幅降低成本。",
+          "dealType": "DISCOUNT",
+          "discountText": "缓存读取低至0.25x原价",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "USD",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://openrouter.ai/docs/guides/best-practices/prompt-caching",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "deepseek-r1-openrouter",
+          "name": "DeepSeek R1",
+          "provider": "深度求索",
+          "modelType": "LLM",
+          "features": [
+            "推理模型",
+            "免费"
+          ]
+        },
+        {
+          "slug": "deepseek-v3-openrouter",
+          "name": "DeepSeek V3",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "claude-opus-4-6-openrouter",
+          "name": "Claude Opus 4.6",
+          "provider": "Anthropic",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "claude-sonnet-4-6-openrouter",
+          "name": "Claude Sonnet 4.6",
+          "provider": "Anthropic",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "gpt-5-4-openrouter",
+          "name": "GPT-5.4",
+          "provider": "OpenAI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "llama-3-2-openrouter",
+          "name": "Llama 3.2",
+          "provider": "Meta",
+          "modelType": "LLM",
+          "features": [
+            "免费"
+          ]
+        },
+        {
+          "slug": "trinity-large-openrouter",
+          "name": "Trinity Large Preview",
+          "provider": "Arcee",
+          "modelType": "LLM",
+          "features": [
+            "免费"
+          ]
+        },
+        {
+          "slug": "gemini-2-5-pro-openrouter",
+          "name": "Gemini 2.5 Pro",
+          "provider": "Google",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "qwen3-max-openrouter",
+          "name": "Qwen3-Max",
+          "provider": "阿里云",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    },
+    {
+      "slug": "jdcloud",
+      "name": "京东云",
+      "vendor": "京东云",
+      "websiteUrl": "https://www.jdcloud.com",
+      "summary": "京东云提供 Coding Plan 特惠页面，面向 AI 编程场景推出 Lite / Pro 两档首购套餐。",
+      "description": "京东云 Coding Plan 特惠页面展示了面向 AI 编程场景的 Lite 与 Pro 两档套餐。Lite 首购 7.9 元/月，原价 40 元/月；Pro 首购 39.9 元/月，原价 200 元/月。支持 DeepSeek、GLM、MiniMax、Qwen3-Coder、Kimi 等模型，并兼容 Claude Code、OpenCode、OpenClaw、Roo Code、Cursor 等工具。",
+      "logo": null,
+      "categories": [
+        "model-platform",
+        "ai-dev-platform",
+        "cloud-service"
+      ],
+      "tags": [
+        "llm",
+        "coding-plan",
+        "coding",
+        "cloud-service",
+        "developer-tools"
+      ],
+      "platforms": [
+        "Web",
+        "API"
+      ],
+      "deals": [
+        {
+          "title": "Coding Plan Lite",
+          "description": "产品首购，可购1个。每天10:30开抢，每月最多18,000次请求，适合轻度开发者，满足日常基础代码辅助需求。支持 DeepSeek、GLM、MiniMax、Qwen3-Coder、Kimi 等模型。当前页面显示已售罄，请预约。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "7.9元/1个月，原价40元/1个月；每天10:30开抢",
+          "originalPrice": 40,
+          "discountedPrice": 7.9,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://www.jdcloud.com/cn/pages/codingplan",
+          "modelSlug": null,
+          "status": "SOLD_OUT",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Pro",
+          "description": "产品首购，可购1个。每天10:30开抢，每月最多90,000次请求，适合重度开发者，享更高的调用额度与极速体验。享受 Lite 套餐的全部能力与权益，月用量为 Lite 版的 5 倍。当前页面显示已售罄，点击预约。",
+          "dealType": "SUBSCRIPTION",
+          "discountText": "39.9元/1个月，原价200元/1个月；每天10:30开抢",
+          "originalPrice": 200,
+          "discountedPrice": 39.9,
+          "currency": "CNY",
+          "billingCycle": "MONTHLY",
+          "availableCycles": [
+            "MONTHLY"
+          ],
+          "couponCode": null,
+          "dealUrl": "https://www.jdcloud.com/cn/pages/codingplan",
+          "modelSlug": null,
+          "status": "SOLD_OUT",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-26"
+        }
+      ],
+      "models": [
+        {
+          "slug": "deepseek-jdcloud",
+          "name": "DeepSeek",
+          "provider": "深度求索",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "glm-jdcloud",
+          "name": "GLM",
+          "provider": "智谱AI",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "minimax-jdcloud",
+          "name": "MiniMax",
+          "provider": "MiniMax",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "qwen3-coder-jdcloud",
+          "name": "Qwen3-Coder",
+          "provider": "阿里云",
+          "modelType": "LLM"
+        },
+        {
+          "slug": "kimi-jdcloud",
+          "name": "Kimi",
+          "provider": "月之暗面",
+          "modelType": "LLM"
+        }
+      ],
+      "isPublished": true
+    }
+  ]
+}

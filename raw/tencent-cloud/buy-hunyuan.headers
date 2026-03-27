@@ -1,0 +1,41 @@
+HTTP/2 302 
+content-type: text/html; charset=utf-8
+set-cookie: intl_language=zh; path=/; expires=Fri, 24 Apr 2026 08:35:47 GMT; domain=.cloud.tencent.com
+set-cookie: language=zh; path=/; expires=Fri, 24 Apr 2026 08:35:47 GMT; domain=.cloud.tencent.com
+accept-ranges: bytes
+vary: Accept-Encoding
+location: https://cloud.tencent.com/login?s_url=https%3A%2F%2Fbuy.cloud.tencent.com%2Fhunyuan
+x-qcbuy-ver: image_midway_20260319171448
+x-req-id: 1gz_B8UC2HJ9W
+access-control-expose-headers: X-Req-Id,X-Server-Cost
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-download-options: noopen
+x-readtime: 151
+x-server-cost: 150.768
+server: TencentEdgeOne
+content-length: 197
+date: Wed, 25 Mar 2026 08:35:46 GMT
+eo-log-uuid: 16200682824033566783
+eo-cache-status: MISS
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: nginx
+vary: Accept-Encoding
+vary: Origin
+x-ratelimit-limit: 2750
+x-ratelimit-remaining: 2682
+x-ratelimit-reset: 1774427748
+x-req-id: U7z4NVGLY96G
+set-cookie: qcloud_uid=k0I7LN00SILR; path=/; expires=Fri, 17 Mar 2056 08:35:47 GMT; domain=.cloud.tencent.com
+set-cookie: language=zh; path=/; expires=Sun, 24 May 2026 08:35:47 GMT; domain=.cloud.tencent.com; samesite=none; secure
+set-cookie: qcmainCSRFToken=qJ0QLzfL2IIN; path=/; domain=.cloud.tencent.com; secure
+pragma: no-cache
+expires: 0
+cache-control: must-revalidate, no-cache, no-store
+content-length: 3169
+date: Wed, 25 Mar 2026 08:35:47 GMT
+eo-log-uuid: 12489676762228209328
+eo-cache-status: MISS
+

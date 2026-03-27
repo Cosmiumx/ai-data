@@ -1,0 +1,54 @@
+[
+  {
+    "page": "home",
+    "url": "https://open.bigmodel.cn",
+    "title": "ZHIPU AI OPEN PLATFORM",
+    "snippets": [],
+    "prices": []
+  },
+  {
+    "page": "price",
+    "url": "https://open.bigmodel.cn/pricing",
+    "title": "ZHIPU AI OPEN PLATFORM",
+    "snippets": [
+      "(Ktokens)",
+      "(1M tokens)",
+      "(1M tokens)",
+      "(1M tokens/hour)",
+      "(1M tokens)",
+      "GLM-4.7-FlashX",
+      "GLM-4.7-Flash",
+      "We offer a variety of large models, each with different features and price points. Image generation model is billed based on requests, and other models are billed based on tokens. A token refers to the smallest unit of text in model inference, typically a word, Chinese word/phrase, punctuation mark, or number. 1 token is approximately 1.6 Chinese characters.",
+      "¥5 / M Tokens",
+      "¥2.5 / M Tokens",
+      "¥0.5 / M Tokens",
+      "¥0.25 / M Tokens",
+      "¥10 / M Tokens",
+      "GLM-4-FlashX-250414",
+      "¥0.1 / M Tokens",
+      "¥0.05 / M Tokens",
+      "¥1 / M Tokens",
+      "¥0.5 / M Tokens",
+      "¥5 / M Tokens",
+      "¥0.1 / 1k tokens",
+      "¥0.125 / 1k tokens",
+      "¥0.035 / 1k tokens",
+      "¥0.05 / 1k tokens",
+      "¥0.03 / 1k tokens",
+      "¥0.05 / 1k tokens",
+      "¥0.03 / 1k tokens",
+      "¥0.05 / 1k tokens",
+      "GLM-4-Flash",
+      "¥0.025 / 1k tokens",
+      "¥0.04 / 1k tokens"
+    ],
+    "prices": []
+  },
+  {
+    "page": "activity",
+    "url": "https://open.bigmodel.cn/activities",
+    "title": "ZHIPU AI OPEN PLATFORM",
+    "snippets": [],
+    "prices": []
+  }
+]
