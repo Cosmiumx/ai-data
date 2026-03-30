@@ -1,5 +1,5 @@
 {
-  "version": "2026-03-27",
+  "version": "2026-03-30",
   "categories": [
     {
       "slug": "model-platform",
@@ -76,25 +76,6 @@
       ],
       "deals": [
         {
-          "title": "千问3.5 首购特惠",
-          "description": "千问3.5重磅发布，首个原生多模态大模型，架构创新、能力飞跃。入门套餐首购低至4.5折，可抵扣阿里云全量模型（千问、万相、Fun-ASR等）。每百万tokens价格低至0.8元。",
-          "dealType": "DISCOUNT",
-          "discountText": "首购低至4.5折",
-          "originalPrice": null,
-          "discountedPrice": null,
-          "currency": "CNY",
-          "billingCycle": null,
-          "availableCycles": [],
-          "couponCode": null,
-          "dealUrl": "https://www.aliyun.com/benefit/scene/ai-discount",
-          "modelSlug": "qwen3-5-plus",
-          "status": "ACTIVE",
-          "startsAt": null,
-          "expiresAt": null,
-          "isPublished": true,
-          "collectedAt": "2026-03-26"
-        },
-        {
           "title": "新用户免费体验额度",
           "description": "新用户零门槛领取超7000万tokens，90天超长有效期。支持千问系列大模型和国内优质开源三方大模型。",
           "dealType": "LIMITED_FREE",
@@ -109,62 +90,50 @@
           "startsAt": null,
           "expiresAt": null,
           "isPublished": true,
-          "collectedAt": "2026-03-26"
+          "collectedAt": "2026-03-30"
         },
         {
-          "title": "大模型节省计划-入门版",
-          "description": "50元抵100元，抵扣阿里云全系大模型，支持跨模型抵扣。消费1个月，当月抵20元，最高省50%。支持千问、万相、Fun-ASR等阿里云全系最新大模型。",
+          "title": "大模型全量抵扣套餐-入门版",
+          "description": "50元抵100元，抵扣阿里云全系大模型，支持跨模型抵扣。消费1个月，当月抵20元，最高省50%。",
           "dealType": "DISCOUNT",
           "discountText": "50元抵100元",
           "originalPrice": 100,
           "discountedPrice": 50,
           "currency": "CNY",
-          "billingCycle": "MONTHLY",
-          "availableCycles": [
-            "MONTHLY"
-          ],
           "couponCode": null,
-          "dealUrl": "https://common-buy.aliyun.com/?commodityCode=sfm_GenAI_spn_cn",
+          "dealUrl": "https://www.aliyun.com/activity/new",
           "modelSlug": null,
           "status": "ACTIVE",
           "startsAt": null,
           "expiresAt": null,
           "isPublished": true,
-          "collectedAt": "2026-03-26"
+          "collectedAt": "2026-03-30"
         },
         {
-          "title": "大模型节省计划-进阶版",
-          "description": "250元抵500元，抵扣阿里云全系大模型，支持跨模型抵扣。消费3个月，每月抵20元，最高省55%。支持千问、万相、Fun-ASR等阿里云全系最新大模型。",
+          "title": "大模型全量抵扣套餐-进阶版",
+          "description": "250元抵500元，抵扣阿里云全系大模型，支持跨模型抵扣。消费3个月，每月抵20元，最高省55%。",
           "dealType": "DISCOUNT",
           "discountText": "250元抵500元",
           "originalPrice": 500,
           "discountedPrice": 250,
           "currency": "CNY",
-          "billingCycle": "MONTHLY",
-          "availableCycles": [
-            "MONTHLY"
-          ],
           "couponCode": null,
-          "dealUrl": "https://common-buy.aliyun.com/?commodityCode=sfm_GenAI_spn_cn",
+          "dealUrl": "https://www.aliyun.com/activity/new",
           "modelSlug": null,
           "status": "ACTIVE",
           "startsAt": null,
           "expiresAt": null,
           "isPublished": true,
-          "collectedAt": "2026-03-26"
+          "collectedAt": "2026-03-30"
         },
         {
-          "title": "Coding Plan Lite 基础套餐",
-          "description": "适合轻量级开发任务，每月固定费用即可接入 Claude Code、Qwen Code、Qoder、Cline、OpenClaw 等主流 AI 开发工具，支持千问、GLM、Kimi、MiniMax 等最新版本模型。",
-          "dealType": "SUBSCRIPTION",
-          "discountText": "40元/月",
+          "title": "Coding Plan 订阅服务",
+          "description": "阿里云百炼提供专为 AI Coding 场景打造的订阅服务。公开页已确认入口，但套餐价格需登录控制台后查看。",
+          "dealType": "DISCOUNT",
+          "discountText": "价格需登录查看",
           "originalPrice": null,
-          "discountedPrice": 40,
+          "discountedPrice": null,
           "currency": "CNY",
-          "billingCycle": "MONTHLY",
-          "availableCycles": [
-            "MONTHLY"
-          ],
           "couponCode": null,
           "dealUrl": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/coding-plan-index",
           "modelSlug": null,
@@ -172,28 +141,7 @@
           "startsAt": null,
           "expiresAt": null,
           "isPublished": true,
-          "collectedAt": "2026-03-26"
-        },
-        {
-          "title": "Coding Plan Pro 高级套餐",
-          "description": "复杂项目的进阶之选，适合大型开发任务需求。每月固定费用即可接入 Claude Code、Qwen Code、Qoder、Cline、OpenClaw 等主流 AI 开发工具，支持千问、GLM、Kimi、MiniMax 等最新版本模型，每月最多 90000 次请求额度。",
-          "dealType": "SUBSCRIPTION",
-          "discountText": "200元/月",
-          "originalPrice": null,
-          "discountedPrice": 200,
-          "currency": "CNY",
-          "billingCycle": "MONTHLY",
-          "availableCycles": [
-            "MONTHLY"
-          ],
-          "couponCode": null,
-          "dealUrl": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/coding-plan-index",
-          "modelSlug": null,
-          "status": "ACTIVE",
-          "startsAt": null,
-          "expiresAt": null,
-          "isPublished": true,
-          "collectedAt": "2026-03-26"
+          "collectedAt": "2026-03-30"
         }
       ],
       "models": [
@@ -622,6 +570,40 @@
           "expiresAt": null,
           "isPublished": true,
           "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "新用户赠送调用额度",
+          "description": "新用户赠送 100万token",
+          "dealType": "LIMITED_FREE",
+          "discountText": "100万token",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": null,
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-30"
+        },
+        {
+          "title": "免费试用",
+          "description": "提供免费试用服务",
+          "dealType": "FREE_TRIAL",
+          "discountText": "免费试用",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": null,
+          "couponCode": null,
+          "dealUrl": null,
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-30"
         }
       ],
       "models": [
@@ -732,6 +714,40 @@
           "expiresAt": null,
           "isPublished": true,
           "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "Coding Plan Lite 套餐",
+          "description": "Lite套餐40.0元/月，每5小时1200次请求。支持Claude Code、Cursor、Cline、OpenClaw、Windsurf。",
+          "dealType": "DISCOUNT",
+          "discountText": "40.0元/月",
+          "originalPrice": null,
+          "discountedPrice": 40.0,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://cloud.baidu.com/product/codingplan.html",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-30"
+        },
+        {
+          "title": "Coding Plan Pro 套餐",
+          "description": "Pro套餐200.0元/月，每5小时6000次请求。支持Claude Code、Cursor、Cline、OpenClaw、Windsurf。",
+          "dealType": "DISCOUNT",
+          "discountText": "200.0元/月",
+          "originalPrice": null,
+          "discountedPrice": 200.0,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": "https://cloud.baidu.com/product/codingplan.html",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-30"
         }
       ],
       "models": [
@@ -2484,6 +2500,40 @@
           "expiresAt": null,
           "isPublished": true,
           "collectedAt": "2026-03-26"
+        },
+        {
+          "title": "优惠套餐",
+          "description": "优惠价格 35.0元/月",
+          "dealType": "DISCOUNT",
+          "discountText": "35.0元/月",
+          "originalPrice": null,
+          "discountedPrice": 35.0,
+          "currency": "CNY",
+          "couponCode": null,
+          "dealUrl": null,
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-30"
+        },
+        {
+          "title": "免费试用",
+          "description": "提供免费试用服务",
+          "dealType": "FREE_TRIAL",
+          "discountText": "免费试用",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": null,
+          "couponCode": null,
+          "dealUrl": null,
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-03-30"
         }
       ],
       "models": [
