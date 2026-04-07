@@ -61,11 +61,11 @@
         s.parentNode.insertBefore(um, s)
       })()
     </script>
-    <script type="module" crossorigin src="https://content.cloud.infini-ai.com/platform-web-prod/assets/js/main.b97669b4.js"></script>
-    <link rel="modulepreload" crossorigin href="https://content.cloud.infini-ai.com/platform-web-prod/assets/js/vue-router.fe668a9b.js">
-    <link rel="modulepreload" crossorigin href="https://content.cloud.infini-ai.com/platform-web-prod/assets/js/agent.cd00e421.js">
+    <script type="module" crossorigin src="https://content.cloud.infini-ai.com/platform-web-prod/assets/js/main.cc04a56b.js"></script>
+    <link rel="modulepreload" crossorigin href="https://content.cloud.infini-ai.com/platform-web-prod/assets/js/vue-router.234f13f0.js">
+    <link rel="modulepreload" crossorigin href="https://content.cloud.infini-ai.com/platform-web-prod/assets/js/agent.08363d33.js">
     <link rel="stylesheet" href="https://content.cloud.infini-ai.com/platform-web-prod/assets/css/agent-2e07edd4.css">
-    <link rel="stylesheet" href="https://content.cloud.infini-ai.com/platform-web-prod/assets/css/index-48329589.css">
+    <link rel="stylesheet" href="https://content.cloud.infini-ai.com/platform-web-prod/assets/css/index-de4a1cbb.css">
   </head>
 
   <body>
