@@ -5,8 +5,6 @@
     "title": "大模型服务平台百炼 - 大模型应用构建 - 阿里云",
     "snippets": [
       "免费体验",
-      "Coding Plan迎新升级，适配多款热门生态AI工具，支持Qwen3.5-Plus、GLM-5等多款开闭源模型。立即体验",
-      "免费体验Qwen3.5",
       "免费领取超7000万tokens",
       "新用户零门槛领取千万免费tokens，90天超长有效期，随心体验大模型。",
       "面向所有阿里云用户，提供百余款千问系列大模型和国内优质开源三方大模型，新用户开通即享超7000万免费tokens。",
@@ -23,20 +21,14 @@
       "2元/每百万tokens",
       "0.1元/每百万tokens",
       "1元/每百万tokens",
-      "0.25元/每百万tokens"
+      "0.25元/每百万tokens",
+      "0.02元/每百万tokens",
+      "0.2元/每百万tokens"
     ],
     "links": [
       {
         "text": "免费体验",
         "href": "https://bailian.console.aliyun.com/?spm=5176.29619931.J_SEsSjsNv72yRuRFS2VknO.2.45ea10d79eQLoQ&tab=demohouse#/experience/llm"
-      },
-      {
-        "text": "Coding Plan迎新升级，适配多款热门生态AI工具，支持Qwen3.5-Plus、GLM-5等多款开闭源模型。立即体验",
-        "href": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/index"
-      },
-      {
-        "text": "免费体验Qwen3.5",
-        "href": "https://bailian.console.aliyun.com/cn-beijing/?tab=demohouse#/experience/llm"
       },
       {
         "text": "免费领取超7000万tokens\n新用户零门槛领取千万免费tokens，90天超长有效期，随心体验大模型。",
@@ -83,8 +75,8 @@
         "href": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/index"
       },
       {
-        "text": "AI 焕新季，马上用千问HOT\n\n千问焕新计划万亿 Tokens 助力创新，先用后返最高500元",
-        "href": "https://www.aliyun.com/activity/purchase/aistartup"
+        "text": "JVS Claw 免费获取，开启私享 AI 助理\nNEW\n\n免除繁琐配置，快速拥有专属 JVS Claw",
+        "href": "https://www.aliyun.com/solution/tech-solution/jvsclaw"
       },
       {
         "text": "解决方案免费试用 新老同享\n\n最高领取价值200元试用点，立即开启云上创新",
@@ -176,8 +168,8 @@
         "href": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/index"
       },
       {
-        "text": "AI 焕新季，马上用千问HOT\n\n千问焕新计划万亿 Tokens 助力创新，先用后返最高500元",
-        "href": "https://www.aliyun.com/activity/purchase/aistartup"
+        "text": "JVS Claw 免费获取，开启私享 AI 助理\nNEW\n\n免除繁琐配置，快速拥有专属 JVS Claw",
+        "href": "https://www.aliyun.com/solution/tech-solution/jvsclaw"
       },
       {
         "text": "解决方案免费试用 新老同享\n\n最高领取价值200元试用点，立即开启云上创新",
@@ -206,12 +198,7 @@
     "url": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/coding-plan-index",
     "title": "大模型服务平台百炼控制台",
     "snippets": [
-      "Coding Plan",
-      "百炼 Coding Plan，是专为专业 AI Coding 场景打造的订阅服务，每月仅需支付固定费用，即可无缝接入 Claude Code、Qwen Code、Qoder、Cline、OpenClaw 等主流的AI开发工具，畅享千问等最新模型和版本，为广大开发者们提供行业领先的代码理解能力、实时智能补全和强大工具调用能力。",
-      "Q：每个百炼账号支持同时开通几个 Coding Plan？",
-      "A：每个百炼账号同时只能订阅一个 Coding Plan（不区分 Lite 和 Pro 套餐版本）。",
-      "Q：Coding Plan 可以退款吗？",
-      "A：Coding Plan 服务一经购买不支持退订与退款。"
+      "Coding Plan"
     ],
     "links": []
   },
@@ -229,51 +216,31 @@
     "url": "https://www.aliyun.com/activity/new",
     "title": "阿里云权益中心_助力学生、开发者、企业用云快速上云-阿里云",
     "snippets": [
-      "注册并完成实名认证，享受超140款产品免费试用",
-      "领取免费Tokens",
-      "入门套餐首购低至 4.5 折，每百万tokens价格低至 0.8 元",
-      "千问 3.5 原生多模态、架构创新、能力飞跃，首购低至4.5折，可抵扣阿里云全量模型 活动规则",
-      "阿里云全量大模型优惠套餐，可抵扣千问 3.5 支持千问、万相、Fun-ASR等阿里云全系最新大模型 获取大额节省计划",
-      "大模型全量抵扣优惠套餐首购5折",
-      "抵扣阿里云全系大模型，支持跨模型抵扣",
-      "抵扣范围：购买套餐后可抵扣模型按量计费部分，如千问、万相、Fun-ASR等全系模型",
-      "抵扣方式：自动抵扣与出账，无需关注不同模型价格差异",
-      "大模型全量抵扣优惠套餐首购4.5折",
-      "抵扣阿里云全系大模型，支持跨模型抵扣",
-      "抵扣范围：购买套餐后可抵扣模型按量计费部分，如千问、万相、Fun-ASR等全系模型",
-      "抵扣方式：自动抵扣与出账，无需关注不同模型价格差异",
+      "全模型通用抵扣：10元抵20元",
+      "可抵扣由阿里云百炼提供的全量模型，一次购买即可跨模型通享。",
+      "随时生效，无需手动激活或绑定，自动抵扣。",
       "全模型通用抵扣：50元抵100元",
+      "可抵扣由阿里云百炼提供的全量模型，一次购买即可跨模型通享。",
+      "随时生效，无需手动激活或绑定，自动抵扣。",
       "全模型通用抵扣：250元抵500元",
-      "全模型通用抵扣：135元抵300元",
-      "全模型通用抵扣：675元抵1500元",
-      "支持抵扣 DSW/DLC/EAS",
-      "支持抵扣 DSW/DLC/EAS",
-      "千问3.5重磅发布，大模型通用抵扣包低至4.5折，超7000万 tokens 免费体验。"
+      "可抵扣由阿里云百炼提供的全量模型，一次购买即可跨模型通享。",
+      "随时生效，无需手动激活或绑定，自动抵扣。",
+      "AI Coding",
+      "热门 AI 应用免费体验",
+      "免费体验，创新&无限可能",
+      "免费试用",
+      "免费试用",
+      "解决方案免费试用",
+      "免费体验前沿 AI 应用和最新通义系列大模型，开启智能创新",
+      "大模型服务平台百炼-Coding Plan",
+      "专为 AI Coding 场景打造的订阅服务",
+      "JVS Claw 免费获取，开启私享 AI 助理",
+      "上云优选，普惠好价，为开发者和企业提供多款超值优选上云必备产品；超 140 款免费试用产品；初创企业最高可得 100 万抵扣金。"
     ],
     "links": [
       {
-        "text": "领取免费Tokens",
-        "href": "https://bailian.console.aliyun.com/cn-beijing/?tab=doc#/doc/?type=model&url=2766612"
-      },
-      {
-        "text": "千问3.5 极致性能 超高效率\n\n入门套餐首购低至 4.5 折，每百万tokens价格低至 0.8 元\n\n查看更多",
-        "href": "https://bailian.console.aliyun.com/cn-beijing?tab=demohouse#/experience/llm"
-      },
-      {
-        "text": "全模型通用抵扣：50元抵100元",
-        "href": "https://bailian.console.aliyun.com/console?tab=doc#/doc"
-      },
-      {
-        "text": "全模型通用抵扣：250元抵500元",
-        "href": "https://bailian.console.aliyun.com/console?tab=doc#/doc"
-      },
-      {
-        "text": "全模型通用抵扣：135元抵300元",
-        "href": "https://bailian.console.aliyun.com/console?tab=doc#/doc"
-      },
-      {
-        "text": "全模型通用抵扣：675元抵1500元",
-        "href": "https://bailian.console.aliyun.com/console?tab=doc#/doc"
+        "text": "阿里云 AI 体验馆\n\n免费体验，创新&无限可能\n\n立即体验",
+        "href": "https://www.aliyun.com/exp/"
       },
       {
         "text": "免费试用",
@@ -296,8 +263,8 @@
         "href": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/index"
       },
       {
-        "text": "AI 焕新季，马上用千问HOT\n\n千问焕新计划万亿 Tokens 助力创新，先用后返最高500元",
-        "href": "https://www.aliyun.com/activity/purchase/aistartup"
+        "text": "JVS Claw 免费获取，开启私享 AI 助理\nNEW\n\n免除繁琐配置，快速拥有专属 JVS Claw",
+        "href": "https://www.aliyun.com/solution/tech-solution/jvsclaw"
       },
       {
         "text": "解决方案免费试用 新老同享\n\n最高领取价值200元试用点，立即开启云上创新",
