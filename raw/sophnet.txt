@@ -102,7 +102,7 @@
     <script>
       window.process = {};
     </script>
-    <script type="module" crossorigin src="./static/js/index-CXiDRAVe.js"></script>
+    <script type="module" crossorigin src="./static/js/index-BHoLt-eD.js"></script>
     <link rel="modulepreload" crossorigin href="./static/js/_plugin-vue_export-helper-DDHrwgLD.js">
     <link rel="modulepreload" crossorigin href="./static/js/index-CGUr5ukz.js">
     <link rel="stylesheet" crossorigin href="./static/css/index-DjwBeUqd.css">
