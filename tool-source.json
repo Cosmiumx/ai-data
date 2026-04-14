@@ -1,5 +1,5 @@
 {
-  "version": "2026-04-08",
+  "version": "2026-04-14",
   "categories": [
     {
       "slug": "model-platform",
@@ -804,9 +804,9 @@
       "deals": [
         {
           "title": "Coding Plan Lite 编程套餐",
-          "description": "个人开发者轻量化工具，主流国产编程模型全覆盖，多生态兼容，模型工具不限。支持接入Claude Code、OpenClaw、Cursor、Cline等主流AI编程工具。",
+          "description": "中等强度开发任务。每5小时约1200次请求，每周约9000次，每月约18000次。支持Doubao-Seed-2.0-pro/lite/Code、MiniMax-M2.5、Kimi-K2.5、GLM-4.7、DeepSeek-V3.2等模型，兼容Claude Code、OpenClaw、Cursor、Cline等主流AI编程工具。",
           "dealType": "SUBSCRIPTION",
-          "discountText": "首购40元/月，续费40元/月",
+          "discountText": "¥40/月（约18000次请求）",
           "originalPrice": null,
           "discountedPrice": 40,
           "currency": "CNY",
@@ -815,19 +815,19 @@
             "MONTHLY"
           ],
           "couponCode": null,
-          "dealUrl": "https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%7D&advancedActiveKey=subscribe",
+          "dealUrl": "https://www.volcengine.com/activity/codingplan",
           "modelSlug": null,
           "status": "ACTIVE",
           "startsAt": null,
           "expiresAt": null,
           "isPublished": true,
-          "collectedAt": "2026-03-26"
+          "collectedAt": "2026-04-09"
         },
         {
           "title": "Coding Plan Pro 编程套餐",
-          "description": "高阶用户大规模编程需求，主流国产编程模型全覆盖，多生态兼容，模型工具不限。支持接入Claude Code、OpenClaw、Cursor、Cline等主流AI编程工具。",
+          "description": "高强度开发任务，Lite的5倍用量。每5小时约6000次请求，每周约45000次，每月约90000次。订阅周期免费使用ArkClaw轻量版（7*24小时在线智能伙伴）。支持Doubao-Seed-2.0-pro/lite/Code、MiniMax-M2.5、Kimi-K2.5、GLM-4.7、DeepSeek-V3.2等模型。",
           "dealType": "SUBSCRIPTION",
-          "discountText": "首购200元/月，续费200元/月",
+          "discountText": "¥200/月（约90000次请求，含ArkClaw）",
           "originalPrice": null,
           "discountedPrice": 200,
           "currency": "CNY",
@@ -836,19 +836,19 @@
             "MONTHLY"
           ],
           "couponCode": null,
-          "dealUrl": "https://console.volcengine.com/ark/region:ark+cn-beijing/openManagement?LLM=%7B%7D&advancedActiveKey=subscribe",
+          "dealUrl": "https://www.volcengine.com/activity/codingplan",
           "modelSlug": null,
           "status": "ACTIVE",
           "startsAt": null,
           "expiresAt": null,
           "isPublished": true,
-          "collectedAt": "2026-03-26"
+          "collectedAt": "2026-04-09"
         },
         {
           "title": "Coding Plan 首月优惠",
-          "description": "订阅Coding Plan首月低至9.9元，模型自由，工具不限，解锁多重生产力。",
+          "description": "订阅Coding Plan首月低至9.9元，模型自由，工具不限，解锁ArkClaw智能伙伴。",
           "dealType": "DISCOUNT",
-          "discountText": "首月低至9.9元",
+          "discountText": "首月¥9.9",
           "originalPrice": 40,
           "discountedPrice": 9.9,
           "currency": "CNY",
@@ -857,13 +857,32 @@
             "MONTHLY"
           ],
           "couponCode": null,
-          "dealUrl": "https://console.volcengine.com/ark/region:ark+cn-beijing/codingPlan",
+          "dealUrl": "https://www.volcengine.com/activity/codingplan",
           "modelSlug": null,
           "status": "ACTIVE",
           "startsAt": null,
           "expiresAt": null,
           "isPublished": true,
-          "collectedAt": "2026-03-26"
+          "collectedAt": "2026-04-09"
+        },
+        {
+          "title": "限时邀请有礼活动",
+          "description": "邀请好友订阅，好友首单享9折；您可获得其下单金额10%的代金券奖励，上不封顶。",
+          "dealType": "REFERRAL",
+          "discountText": "好友9折，您得10%代金券",
+          "originalPrice": null,
+          "discountedPrice": null,
+          "currency": "CNY",
+          "billingCycle": null,
+          "availableCycles": [],
+          "couponCode": null,
+          "dealUrl": "https://www.volcengine.com/docs/82379/2165246",
+          "modelSlug": null,
+          "status": "ACTIVE",
+          "startsAt": null,
+          "expiresAt": null,
+          "isPublished": true,
+          "collectedAt": "2026-04-09"
         }
       ],
       "models": [

@@ -1,0 +1,39 @@
+[
+  {
+    "page": "product",
+    "url": "https://www.aliyun.com/product/bailian",
+    "title": "大模型服务平台百炼 - 大模型应用构建 - 阿里云",
+    "snippets": [
+      "大模型服务平台百炼 - 大模型应用构建 - 阿里云"
+    ],
+    "links": []
+  },
+  {
+    "page": "coding_scene",
+    "url": "https://www.aliyun.com/benefit/scene/coding",
+    "title": "AI 智能编码场景 AI 应用 - 大模型驱动的 AI 编码解决方案 - 阿里云",
+    "snippets": [],
+    "links": []
+  },
+  {
+    "page": "coding_plan",
+    "url": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/coding-plan-index",
+    "title": "",
+    "snippets": [],
+    "links": []
+  },
+  {
+    "page": "free_quota",
+    "url": "https://bailian.console.aliyun.com/?tab=model#/model-usage/free-quota",
+    "title": "",
+    "snippets": [],
+    "links": []
+  },
+  {
+    "page": "activity_new",
+    "url": "https://www.aliyun.com/activity/new",
+    "title": "阿里云权益中心_助力学生、开发者、企业用云快速上云-阿里云",
+    "snippets": [],
+    "links": []
+  }
+]
