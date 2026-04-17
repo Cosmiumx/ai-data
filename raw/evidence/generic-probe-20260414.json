@@ -1,0 +1,1605 @@
+{
+  "collectedAt": "2026-04-14",
+  "results": [
+    {
+      "platform": {
+        "slug": "aliyun-bailian",
+        "name": "阿里云百炼",
+        "websiteUrl": "https://www.aliyun.com/product/bailian"
+      },
+      "collectedAt": "2026-04-14",
+      "mode": "probe",
+      "pages": [
+        {
+          "url": "https://www.aliyun.com/product/bailian",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "大模型服务平台百炼 - 大模型应用构建 - 阿里云",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html",
+          "textChars": 4261,
+          "candidateLinks": [
+            {
+              "text": "免费领取超7000万tokens 新用户零门槛领取千万免费tokens，90天超长有效期，随心体验大模型。",
+              "href": "https://bailian.console.aliyun.com/?tab=model#/model-usage/free-quota",
+              "score": 18,
+              "sameHost": false
+            },
+            {
+              "text": "更多资源包套餐",
+              "href": "https://www.aliyun.com/benefit/scene/ai-discount",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "新人享千万tokens免费试用",
+              "href": "https://bailian.console.aliyun.com/cn-beijing/?tab=demohouse#/experience/llm",
+              "score": 11,
+              "sameHost": false
+            },
+            {
+              "text": "",
+              "href": "https://www.aliyun.com/benefit/aihands-on/mainpage",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "免费体验",
+              "href": "https://bailian.console.aliyun.com/?tab=home#/home",
+              "score": 5,
+              "sameHost": false
+            },
+            {
+              "text": "",
+              "href": "https://www.aliyun.com/",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "",
+              "href": "https://www.aliyun.com/search?from=h5-global-nav-search",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "AI 助理 你好，我是AI助理，可以解答问题、推荐解决方案等",
+              "href": "https://www.aliyun.com/ai-assistant?displayMode=side",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "了解千问大模型 千问大模型全场景重磅升级，真正满足企业级大模型落地的多样化场景需求。",
+              "href": "https://www.aliyun.com/product/tongyi",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "千问大模型",
+              "href": "https://www.aliyun.com/product/tongyi?spm=5176.20960838.0.0.1061305eJHjcFx",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "查看详情",
+              "href": "https://www.aliyun.com/customer-stories/education-2026-chaoxing",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "查看详情",
+              "href": "https://www.aliyun.com/customer-stories/internet-and-info-tech-2026-bespin",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "查看详情",
+              "href": "https://www.aliyun.com/customer-stories/internet-and-info-tech-2026-shenli",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "查看详情",
+              "href": "https://www.aliyun.com/customer-stories/internet-and-info-tech-2026-wuniu",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "查看详情",
+              "href": "https://www.aliyun.com/customer-stories/internet-and-info-tech-2025-yuyidata",
+              "score": 1,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "开发者活动",
+            "免费领取超7000万tokens",
+            "新用户零门槛领取千万免费tokens，90天超长有效期，随心体验大模型。",
+            "面向所有阿里云用户，提供百余款千问系列大模型和国内优质开源三方大模型，新用户开通即享超7000万免费tokens。",
+            "免费体验",
+            "实现Agent订阅计费，最大化实现企业价值",
+            "AI选型与定价",
+            "的推理服务价格，更多模型使用计费方式和定价策略，",
+            "价格对比",
+            "推理服务价格",
+            "/每百万tokens",
+            "立即购买",
+            "面向企业级客户及个人开发者，提供专享大模型资源包与灵活的节省方案，助力高效、低成本地实现大模型应用落地，",
+            "更多资源包套餐",
+            "新人享千万tokens免费试用"
+          ]
+        },
+        {
+          "url": "https://bailian.console.aliyun.com/?tab=model#/model-usage/free-quota",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "大模型服务平台百炼控制台",
+          "rawPath": "data/raw/aliyun-bailian/bailian-console-aliyun-com-20260414155844.html",
+          "textChars": 594,
+          "candidateLinks": [],
+          "candidateSnippets": [
+            "Coding Plan"
+          ]
+        },
+        {
+          "url": "https://www.aliyun.com/benefit/scene/ai-discount",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "Qwen3.6 发布 全模型低至4.5折 - 阿里云",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-benefit-scene-ai-discount-20260414155850.html",
+          "textChars": 2735,
+          "candidateLinks": [],
+          "candidateSnippets": []
+        }
+      ],
+      "candidates": [
+        {
+          "sourceText": "免费领取超7000万tokens",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [
+            "7000万tokens"
+          ],
+          "confidence": 0.62,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "新用户零门槛领取千万免费tokens，90天超长有效期，随心体验大模型。",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.56,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "面向所有阿里云用户，提供百余款千问系列大模型和国内优质开源三方大模型，新用户开通即享超7000万免费tokens。",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.44,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "新人享千万tokens免费试用",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.44,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "实现Agent订阅计费，最大化实现企业价值",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "面向企业级客户及个人开发者，提供专享大模型资源包与灵活的节省方案，助力高效、低成本地实现大模型应用落地，",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "更多资源包套餐",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "Coding Plan",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://bailian.console.aliyun.com/?tab=model#/model-usage/free-quota",
+          "rawPath": "data/raw/aliyun-bailian/bailian-console-aliyun-com-20260414155844.html"
+        },
+        {
+          "sourceText": "AI选型与定价",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "的推理服务价格，更多模型使用计费方式和定价策略，",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "/每百万tokens",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "免费体验",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.17,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "开发者活动",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "价格对比",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        },
+        {
+          "sourceText": "立即购买",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://www.aliyun.com/product/bailian",
+          "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260414155835.html"
+        }
+      ],
+      "reviewDeals": [],
+      "summary": {
+        "pagesFetched": 3,
+        "pagesFailed": 0,
+        "candidateCount": 15,
+        "reviewDealCount": 0,
+        "existingDealCount": 4,
+        "needsHumanReview": true
+      }
+    },
+    {
+      "platform": {
+        "slug": "baidu-qianfan",
+        "name": "百度千帆",
+        "websiteUrl": "https://cloud.baidu.com/product/wenxinworkshop"
+      },
+      "collectedAt": "2026-04-14",
+      "mode": "probe",
+      "pages": [
+        {
+          "url": "https://cloud.baidu.com/product/wenxinworkshop",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "千帆大模型平台-企业级一站式大模型开发及应用开发平台-百度智能云",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html",
+          "textChars": 10901,
+          "candidateLinks": [
+            {
+              "text": "最新活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationA",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "查看全部活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationB",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "最新活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "定价",
+              "href": "https://cloud.baidu.com/price/all.html",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "免费试用体验馆 注册并完成实名认证，立即体验热门产品",
+              "href": "https://cloud.baidu.com/campaign/event/free/index.html?track=e84ebfbb98903592f04636037b86f1f81cf768003ccd85cb",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "价格计算器",
+              "href": "https://cloud.baidu.com/price/calculator",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "价格详情",
+              "href": "https://cloud.baidu.com/price/calculator?product=bcc&amp;activeTab=1",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "AI加速季 企业权益普惠 9千万Tokens包免费领 查看详情",
+              "href": "https://cloud.baidu.com/campaign/event/ai/index.html?track=f9c8bf124e57f10958a3d43b1d20c69e9a599a459416a170",
+              "score": 10,
+              "sameHost": true
+            },
+            {
+              "text": "国内短信套餐包 企业首购限时0.99元起",
+              "href": "https://cloud.baidu.com/campaign/experience/index.html?track=c887be73fdf2088df01cc2b98fe327849fa10a516e16c18b#company-app",
+              "score": 10,
+              "sameHost": true
+            },
+            {
+              "text": "ERNIE-5.0 深度推理 视觉理解 文心5.0是原生全模态大模型，基础能力全面升级，具备更强深度思考、视觉理解能力，在多模态理解、指令遵循、创意写作、事实性、智能体规划与工具应用等表现尤其出色。 模型接入点 ernie-5.0 上下文 119k，64k 输入价格 ￥0.006-0.01/ 千tokens 输出价格 ￥0.024-0.04/ 千tokens 立即体验",
+              "href": "https://console.bce.baidu.com/qianfan/ais/console/onlineTest/multimodal/ERNIE-5.0",
+              "score": 9,
+              "sameHost": false
+            },
+            {
+              "text": "ERNIE X1.1 Preview 全新升级，效果提升 深度推理 问答、工具调用、智能体、指令遵循、逻辑推理、数学、代码任务的效果显著提升，事实性显著提升。支持64K上下文长度，兼顾响应速度与长链路推理连贯性。 模型接入点 ernie-x1.1-preview 上下文 64k,55K+64K 输入价格 ¥0.001/ 千tokens 输出价格 ¥0.004/ 千tokens 立即体验",
+              "href": "https://console.bce.baidu.com/qianfan/ais/console/onlineTest/chat/ERNIE-X1.1-Preview",
+              "score": 9,
+              "sameHost": false
+            },
+            {
+              "text": "ERNIE 4.5 Turbo VL 多模态 图像理解 图片理解、创作、翻译、代码等能力显著提升，支持128K上下文长度，首Token时延显著降低。 模型接入点 ernie-4.5-turbo-vl 上下文 128K,123K+ 16K 输入价格 ¥0.003/ 千tokens 输出价格 ¥0.009/ 千tokens 立即体验",
+              "href": "https://console.bce.baidu.com/qianfan/ais/console/onlineTest/multimodal/ERNIE-4.5-Turbo-VL",
+              "score": 9,
+              "sameHost": false
+            },
+            {
+              "text": "ERNIE 4.5 Turbo 文本生成 文心4.5 Turbo在去幻觉、逻辑推理和代码能力等方面也有着明显增强。对比文心4.5，速度更快、价格更低。 模型接入点 ernie-4.5-turbo-128k 上下文 128K,123K+ 12K 输入价格 ¥0.0008/ 千tokens 输出价格 ¥0.0032/ 千tokens 立即体验",
+              "href": "https://console.bce.baidu.com/qianfan/ais/console/onlineTest/chat/ERNIE-4.5-Turbo-128K",
+              "score": 9,
+              "sameHost": false
+            },
+            {
+              "text": "ERNIE-5.0-Thinking-Preview 深度推理 视觉理解 文心5.0是原生全模态大模型，基础能力全面升级，多模态理解、指令遵循、创意写作、事实性、智能体规划与工具应用等表现尤其出色 模型接入点 ernie-5.0-thinking-preview 上下文 119k，64k 输入价格 ¥0.006-0.01/ 千tokens 输出价格 ¥0.024-0.04/ 千tokens 立即体验",
+              "href": "https://console.bce.baidu.com/qianfan/ais/console/onlineTest/multimodal/ERNIE-5.0-Thinking-Preview",
+              "score": 9,
+              "sameHost": false
+            },
+            {
+              "text": "ERNIE-4.5-VL-28B-A3B 多模融合,全新升级 多模态 深度推理 文心4.5中的多模态开源模型，采用MoE架构，具备 280 亿总参数量，激活参数为 30 亿，支持切换思考和非思考两种模式。 模型接入点 ernie-4.5-vl-28b-a3b 上下文 32K,30K+8K 输入价格 ¥0.001/ 千tokens 输出价格 ¥0.01/ 千tokens 立即体验",
+              "href": "https://console.bce.baidu.com/qianfan/ais/console/onlineTest/multimodal/ERNIE-4.5-VL-28B-A3B",
+              "score": 9,
+              "sameHost": false
+            }
+          ],
+          "candidateSnippets": [
+            "最新活动",
+            "云服务器限时特惠",
+            "免费注册",
+            "查看全部活动",
+            "9千万Tokens包免费领",
+            "精选活动",
+            "轻量云服务器OpenClaw首购9.9元起",
+            "免费试用体验馆",
+            "新手专享",
+            "新客限时体验",
+            "企业专享权益",
+            "云推广大使限时招募中",
+            "推荐新客下单返利 最高8万元",
+            "免费大模型课程",
+            "首购275元，多买多省",
+            "企业首购SSL证书5折",
+            "国内短信套餐包",
+            "企业首购限时0.99元起",
+            "内容运营等8款数字员工焕新上线！免费体验！",
+            "优惠上云",
+            "上云领万元新购券",
+            "配备GPU的云端服务器，计算密集型应用专享",
+            "了解定价",
+            "价格计算器",
+            "价格详情",
+            "了解定价模式，合理选择计费模式",
+            "500+节免费观看 持续更新",
+            "市场活动",
+            "百度千帆Coding Plan全面开放使用！",
+            "输入价格"
+          ]
+        },
+        {
+          "url": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationA",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "百度智能云最新活动-百度智能云",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-campaign-PromotionActivity-index-html-20260414155910.html",
+          "textChars": 21697,
+          "candidateLinks": [
+            {
+              "text": "最新活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationA",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "查看全部活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationB",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "最新活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "定价",
+              "href": "https://cloud.baidu.com/price/all.html",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "免费试用体验馆 注册并完成实名认证，立即体验热门产品",
+              "href": "https://cloud.baidu.com/campaign/event/free/index.html?track=e84ebfbb98903592f04636037b86f1f81cf768003ccd85cb",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "价格计算器",
+              "href": "https://cloud.baidu.com/price/calculator",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "价格详情",
+              "href": "https://cloud.baidu.com/price/calculator?product=bcc&amp;activeTab=1",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "AI加速季 企业权益普惠 9千万Tokens包免费领 查看详情",
+              "href": "https://cloud.baidu.com/campaign/event/ai/index.html?track=f9c8bf124e57f10958a3d43b1d20c69e9a599a459416a170",
+              "score": 10,
+              "sameHost": true
+            },
+            {
+              "text": "国内短信套餐包 企业首购限时0.99元起",
+              "href": "https://cloud.baidu.com/campaign/experience/index.html?track=c887be73fdf2088df01cc2b98fe327849fa10a516e16c18b#company-app",
+              "score": 10,
+              "sameHost": true
+            },
+            {
+              "text": "生态伙伴",
+              "href": "https://cloud.baidu.com/partner/plan.html",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "云服务器品类特惠 轻量云服务器OpenClaw首购9.9元起",
+              "href": "https://cloud.baidu.com/campaign/renew/index.html?track=9f64acdb7da402559de4fc57c5621b88bd70f64f1ac6f9a8",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "企业专享权益 权益礼包至高可减6000元",
+              "href": "https://cloud.baidu.com/campaign/event/enterprise/index.html?track=9579c39d8dccc16cd913551579854f61cc67163293a4953c",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "免费大模型课程 入门到进阶，大模型系列课程一站观看",
+              "href": "https://cloud.baidu.com/partner/course-center/index.html?type=all&amp;domain=百度智能云千帆AI加速器&amp;product=all",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "建站特惠 企业首购SSL证书5折",
+              "href": "https://cloud.baidu.com/campaign/experience/index.html?track=650dc16a4d036e7558ae0fe24397b88c44eebf5582e905fd#company-app",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "百度智能云数字员工 内容运营等8款数字员工焕新上线！免费体验！",
+              "href": "https://cloud.baidu.com/product-s/keyue_home/digital-employees?track=cloud3",
+              "score": 6,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "百度智能云最新活动-百度智能云",
+            "最新活动",
+            "云服务器限时特惠",
+            "免费注册",
+            "查看全部活动",
+            "9千万Tokens包免费领",
+            "精选活动",
+            "轻量云服务器OpenClaw首购9.9元起",
+            "免费试用体验馆",
+            "新手专享",
+            "新客限时体验",
+            "企业专享权益",
+            "云推广大使限时招募中",
+            "推荐新客下单返利 最高8万元",
+            "免费大模型课程",
+            "首购275元，多买多省",
+            "企业首购SSL证书5折",
+            "国内短信套餐包",
+            "企业首购限时0.99元起",
+            "内容运营等8款数字员工焕新上线！免费体验！",
+            "优惠上云",
+            "上云领万元新购券",
+            "配备GPU的云端服务器，计算密集型应用专享",
+            "了解定价",
+            "价格计算器",
+            "价格详情",
+            "了解定价模式，合理选择计费模式",
+            "500+节免费观看 持续更新",
+            "市场活动",
+            "注册并完成实名认证，立享热门产品试用"
+          ]
+        },
+        {
+          "url": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationB",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "百度智能云最新活动-百度智能云",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-campaign-PromotionActivity-index-html-20260414155922.html",
+          "textChars": 21696,
+          "candidateLinks": [
+            {
+              "text": "最新活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationA",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "查看全部活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationB",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "最新活动",
+              "href": "https://cloud.baidu.com/campaign/PromotionActivity/index.html",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "定价",
+              "href": "https://cloud.baidu.com/price/all.html",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "免费试用体验馆 注册并完成实名认证，立即体验热门产品",
+              "href": "https://cloud.baidu.com/campaign/event/free/index.html?track=e84ebfbb98903592f04636037b86f1f81cf768003ccd85cb",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "价格计算器",
+              "href": "https://cloud.baidu.com/price/calculator",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "价格详情",
+              "href": "https://cloud.baidu.com/price/calculator?product=bcc&amp;activeTab=1",
+              "score": 11,
+              "sameHost": true
+            },
+            {
+              "text": "AI加速季 企业权益普惠 9千万Tokens包免费领 查看详情",
+              "href": "https://cloud.baidu.com/campaign/event/ai/index.html?track=f9c8bf124e57f10958a3d43b1d20c69e9a599a459416a170",
+              "score": 10,
+              "sameHost": true
+            },
+            {
+              "text": "国内短信套餐包 企业首购限时0.99元起",
+              "href": "https://cloud.baidu.com/campaign/experience/index.html?track=c887be73fdf2088df01cc2b98fe327849fa10a516e16c18b#company-app",
+              "score": 10,
+              "sameHost": true
+            },
+            {
+              "text": "生态伙伴",
+              "href": "https://cloud.baidu.com/partner/plan.html",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "云服务器品类特惠 轻量云服务器OpenClaw首购9.9元起",
+              "href": "https://cloud.baidu.com/campaign/renew/index.html?track=9f64acdb7da402559de4fc57c5621b88bd70f64f1ac6f9a8",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "企业专享权益 权益礼包至高可减6000元",
+              "href": "https://cloud.baidu.com/campaign/event/enterprise/index.html?track=9579c39d8dccc16cd913551579854f61cc67163293a4953c",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "免费大模型课程 入门到进阶，大模型系列课程一站观看",
+              "href": "https://cloud.baidu.com/partner/course-center/index.html?type=all&amp;domain=百度智能云千帆AI加速器&amp;product=all",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "建站特惠 企业首购SSL证书5折",
+              "href": "https://cloud.baidu.com/campaign/experience/index.html?track=650dc16a4d036e7558ae0fe24397b88c44eebf5582e905fd#company-app",
+              "score": 6,
+              "sameHost": true
+            },
+            {
+              "text": "百度智能云数字员工 内容运营等8款数字员工焕新上线！免费体验！",
+              "href": "https://cloud.baidu.com/product-s/keyue_home/digital-employees?track=cloud3",
+              "score": 6,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "百度智能云最新活动-百度智能云",
+            "最新活动",
+            "云服务器限时特惠",
+            "免费注册",
+            "查看全部活动",
+            "9千万Tokens包免费领",
+            "精选活动",
+            "轻量云服务器OpenClaw首购9.9元起",
+            "免费试用体验馆",
+            "新手专享",
+            "新客限时体验",
+            "企业专享权益",
+            "云推广大使限时招募中",
+            "推荐新客下单返利 最高8万元",
+            "免费大模型课程",
+            "首购275元，多买多省",
+            "企业首购SSL证书5折",
+            "国内短信套餐包",
+            "企业首购限时0.99元起",
+            "内容运营等8款数字员工焕新上线！免费体验！",
+            "优惠上云",
+            "上云领万元新购券",
+            "配备GPU的云端服务器，计算密集型应用专享",
+            "了解定价",
+            "价格计算器",
+            "价格详情",
+            "了解定价模式，合理选择计费模式",
+            "500+节免费观看 持续更新",
+            "市场活动",
+            "注册并完成实名认证，立享热门产品试用"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "sourceText": "企业首购限时0.99元起",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [
+            "0.99元"
+          ],
+          "tokenHints": [],
+          "confidence": 0.62,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "轻量云服务器OpenClaw首购9.9元起",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [
+            "9.9元"
+          ],
+          "tokenHints": [],
+          "confidence": 0.5,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "首购275元，多买多省",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [
+            "275元"
+          ],
+          "tokenHints": [],
+          "confidence": 0.5,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "云服务器限时特惠",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.44,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "免费试用体验馆",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.44,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "新客限时体验",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.44,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "企业首购SSL证书5折",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.44,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "9千万Tokens包免费领",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "企业专享权益",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "云推广大使限时招募中",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "推荐新客下单返利 最高8万元",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "免费大模型课程",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "国内短信套餐包",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "内容运营等8款数字员工焕新上线！免费体验！",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "配备GPU的云端服务器，计算密集型应用专享",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "500+节免费观看 持续更新",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "百度千帆Coding Plan全面开放使用！",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "查看全部活动",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "上云领万元新购券",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "了解定价模式，合理选择计费模式",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "百度智能云最新活动-百度智能云",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationA",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-campaign-PromotionActivity-index-html-20260414155910.html"
+        },
+        {
+          "sourceText": "注册并完成实名认证，立享热门产品试用",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/campaign/PromotionActivity/index.html?track=navigationA",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-campaign-PromotionActivity-index-html-20260414155910.html"
+        },
+        {
+          "sourceText": "新手专享",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.17,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "优惠上云",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.17,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "免费注册",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "精选活动",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "价格计算器",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "市场活动",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "输入价格",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        },
+        {
+          "sourceText": "价格详情",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.0,
+          "needsHumanReview": true,
+          "sourceUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+          "rawPath": "data/raw/baidu-qianfan/cloud-baidu-com-product-wenxinworkshop-20260414155900.html"
+        }
+      ],
+      "reviewDeals": [],
+      "summary": {
+        "pagesFetched": 3,
+        "pagesFailed": 0,
+        "candidateCount": 30,
+        "reviewDealCount": 0,
+        "existingDealCount": 4,
+        "needsHumanReview": true
+      }
+    },
+    {
+      "platform": {
+        "slug": "zhipu-bigmodel",
+        "name": "智谱AI",
+        "websiteUrl": "https://open.bigmodel.cn"
+      },
+      "collectedAt": "2026-04-14",
+      "mode": "probe",
+      "pages": [
+        {
+          "url": "https://open.bigmodel.cn",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "ZHIPU AI OPEN PLATFORM",
+          "rawPath": "data/raw/zhipu-bigmodel/open-bigmodel-cn-20260414155930.html",
+          "textChars": 561,
+          "candidateLinks": [],
+          "candidateSnippets": []
+        }
+      ],
+      "candidates": [],
+      "reviewDeals": [],
+      "summary": {
+        "pagesFetched": 1,
+        "pagesFailed": 0,
+        "candidateCount": 0,
+        "reviewDealCount": 0,
+        "existingDealCount": 4,
+        "needsHumanReview": true
+      }
+    },
+    {
+      "platform": {
+        "slug": "siliconflow",
+        "name": "硅基流动",
+        "websiteUrl": "https://siliconflow.cn"
+      },
+      "collectedAt": "2026-04-14",
+      "mode": "probe",
+      "pages": [
+        {
+          "url": "https://siliconflow.cn",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "硅基流动 SiliconFlow - 致力于成为全球领先的 AI 能力提供商",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-20260414155935.html",
+          "textChars": 2390,
+          "candidateLinks": [
+            {
+              "text": "价格",
+              "href": "https://siliconflow.cn/pricing",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "立即试用",
+              "href": "https://cloud.siliconflow.cn/me/models",
+              "score": 5,
+              "sameHost": false
+            },
+            {
+              "text": "",
+              "href": "https://siliconflow.cn/",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "模型",
+              "href": "https://siliconflow.cn/models",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "生态合作",
+              "href": "https://siliconflow.cn/partner",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "查看详情",
+              "href": "https://siliconflow.cn/reserved",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "公司介绍",
+              "href": "https://siliconflow.cn/about",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "品牌理念",
+              "href": "https://siliconflow.cn/brand",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "私有化大模型服务平台",
+              "href": "https://siliconflow.cn/enterprise",
+              "score": 1,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "立即试用",
+            "邀请好友赢全平台通用代金券"
+          ]
+        },
+        {
+          "url": "https://siliconflow.cn/pricing",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "大模型 API 价格方案 - 硅基流动 SiliconFlow",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html",
+          "textChars": 52416,
+          "candidateLinks": [
+            {
+              "text": "价格",
+              "href": "https://siliconflow.cn/pricing",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "查看价格",
+              "href": "https://siliconflow.cn/pricing#bmf0",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "查看价格",
+              "href": "https://siliconflow.cn/pricing#bmf1",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "查看价格",
+              "href": "https://siliconflow.cn/pricing#bmf2",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "语言模型",
+              "href": "https://siliconflow.cn/pricing#chats",
+              "score": 8,
+              "sameHost": true
+            },
+            {
+              "text": "图片 / 视频模型",
+              "href": "https://siliconflow.cn/pricing#images-videos",
+              "score": 8,
+              "sameHost": true
+            },
+            {
+              "text": "语音模型",
+              "href": "https://siliconflow.cn/pricing#audios",
+              "score": 8,
+              "sameHost": true
+            },
+            {
+              "text": "嵌入 / 重排序模型",
+              "href": "https://siliconflow.cn/pricing#embeddings",
+              "score": 8,
+              "sameHost": true
+            },
+            {
+              "text": "",
+              "href": "https://siliconflow.cn/",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "模型",
+              "href": "https://siliconflow.cn/models",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "生态合作",
+              "href": "https://siliconflow.cn/partner",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "公司介绍",
+              "href": "https://siliconflow.cn/about",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "品牌理念",
+              "href": "https://siliconflow.cn/brand",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "预留实例",
+              "href": "https://siliconflow.cn/reserved",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "私有化大模型服务平台",
+              "href": "https://siliconflow.cn/enterprise",
+              "score": 1,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "大模型 API 价格方案 - 硅基流动 SiliconFlow",
+            "查看价格",
+            "输入 (元 / M tokens)",
+            "输出 (元 / M tokens)",
+            "训练（元 / M tokens）",
+            "推理（元 / M tokens）",
+            "输入（元 / M tokens）",
+            "输出（元 / M tokens）",
+            "价格（元 / 小时）",
+            "限时特惠￥2.28",
+            "限时特惠￥7.81",
+            "限时特惠"
+          ]
+        },
+        {
+          "url": "https://cloud.siliconflow.cn/me/models",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "硅基流动统一登录",
+          "rawPath": "data/raw/siliconflow/cloud-siliconflow-cn-me-models-20260414155940.html",
+          "textChars": 10523,
+          "candidateLinks": [],
+          "candidateSnippets": []
+        },
+        {
+          "url": "https://siliconflow.cn/",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "硅基流动 SiliconFlow - 致力于成为全球领先的 AI 能力提供商",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-20260414155946.html",
+          "textChars": 2390,
+          "candidateLinks": [
+            {
+              "text": "价格",
+              "href": "https://siliconflow.cn/pricing",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "立即试用",
+              "href": "https://cloud.siliconflow.cn/me/models",
+              "score": 5,
+              "sameHost": false
+            },
+            {
+              "text": "",
+              "href": "https://siliconflow.cn/",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "模型",
+              "href": "https://siliconflow.cn/models",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "生态合作",
+              "href": "https://siliconflow.cn/partner",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "查看详情",
+              "href": "https://siliconflow.cn/reserved",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "公司介绍",
+              "href": "https://siliconflow.cn/about",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "品牌理念",
+              "href": "https://siliconflow.cn/brand",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "私有化大模型服务平台",
+              "href": "https://siliconflow.cn/enterprise",
+              "score": 1,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "立即试用",
+            "邀请好友赢全平台通用代金券"
+          ]
+        },
+        {
+          "url": "https://siliconflow.cn/models",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "模型中心｜硅基流动 SiliconFlow 大模型云服务",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-models-20260414155949.html",
+          "textChars": 4584,
+          "candidateLinks": [
+            {
+              "text": "价格",
+              "href": "https://siliconflow.cn/pricing",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "",
+              "href": "https://siliconflow.cn/",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "模型",
+              "href": "https://siliconflow.cn/models",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "生态合作",
+              "href": "https://siliconflow.cn/partner",
+              "score": 1,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "/ M Tokens",
+            "Kimi K2.5 是一款开源的原生多模态智能体模型，基于 Kimi-K2-Base，通过约 15 万亿混合视觉与文本 tokens 持续预训练而成。该模型采用 MoE 架构，拥有 1T 总参数和 32B 激活参数，支持 256K 上下文长度，能够无缝融合视觉与语言理解能力，并具备即时模式（Instant）和思考模式（Thinking）两种推理方式，以及对话和智能体两种交互范式",
+            "Qwen3.5-397B-A17B 是通义千问系列的最新视觉语言模型，采用混合专家架构（MoE），总参数量 397B，激活参数 17B。模型原生支持 256K 上下文长度，可扩展至约 1M tokens。支持 201 种语言，具备统一的视觉语言理解能力、工具调用和推理思考模式"
+          ]
+        },
+        {
+          "url": "https://siliconflow.cn/partner",
+          "method": "visible-browser-dump-dom",
+          "ok": true,
+          "title": "合作伙伴生态 - 硅基流动 SiliconFlow",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-partner-20260414155954.html",
+          "textChars": 2723,
+          "candidateLinks": [
+            {
+              "text": "价格",
+              "href": "https://siliconflow.cn/pricing",
+              "score": 13,
+              "sameHost": true
+            },
+            {
+              "text": "",
+              "href": "https://www.cell.com/molecular-plant/abstract/S1674-2052(25)00172-8",
+              "score": 5,
+              "sameHost": false
+            },
+            {
+              "text": "",
+              "href": "https://siliconflow.cn/",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "模型",
+              "href": "https://siliconflow.cn/models",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "生态合作",
+              "href": "https://siliconflow.cn/partner",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "公司介绍",
+              "href": "https://siliconflow.cn/about",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "品牌理念",
+              "href": "https://siliconflow.cn/brand",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "预留实例",
+              "href": "https://siliconflow.cn/reserved",
+              "score": 1,
+              "sameHost": true
+            },
+            {
+              "text": "私有化大模型服务平台",
+              "href": "https://siliconflow.cn/enterprise",
+              "score": 1,
+              "sameHost": true
+            }
+          ],
+          "candidateSnippets": [
+            "通过 SiliconCloud 平台提供的技术支持和 Tokens 扶持，帮助合作伙伴快速启动并降低成本。"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "sourceText": "限时特惠￥2.28",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [
+            "￥2.28"
+          ],
+          "tokenHints": [],
+          "confidence": 0.62,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "限时特惠￥7.81",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [
+            "￥7.81"
+          ],
+          "tokenHints": [],
+          "confidence": 0.62,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "邀请好友赢全平台通用代金券",
+          "suggestedDealType": "DISCOUNT",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.32,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-20260414155935.html"
+        },
+        {
+          "sourceText": "大模型 API 价格方案 - 硅基流动 SiliconFlow",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "输入 (元 / M tokens)",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "输出 (元 / M tokens)",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "训练（元 / M tokens）",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "推理（元 / M tokens）",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "价格（元 / 小时）",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        },
+        {
+          "sourceText": "Kimi K2.5 是一款开源的原生多模态智能体模型，基于 Kimi-K2-Base，通过约 15 万亿混合视觉与文本 tokens 持续预训练而成。该模型采用 MoE 架构，拥有 1T 总参数和 32B 激活参数，支持 256K 上下文长度，能够无缝融合视觉与语言理解能力，并具备即时模式（Instant）和思考模式（Thinking）两种推理方式，以及对话和智能体两种交互范式",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/models",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-models-20260414155949.html"
+        },
+        {
+          "sourceText": "Qwen3.5-397B-A17B 是通义千问系列的最新视觉语言模型，采用混合专家架构（MoE），总参数量 397B，激活参数 17B。模型原生支持 256K 上下文长度，可扩展至约 1M tokens。支持 201 种语言，具备统一的视觉语言理解能力、工具调用和推理思考模式",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/models",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-models-20260414155949.html"
+        },
+        {
+          "sourceText": "通过 SiliconCloud 平台提供的技术支持和 Tokens 扶持，帮助合作伙伴快速启动并降低成本。",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.2,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/partner",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-partner-20260414155954.html"
+        },
+        {
+          "sourceText": "立即试用",
+          "suggestedDealType": "LIMITED_FREE",
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-20260414155935.html"
+        },
+        {
+          "sourceText": "查看价格",
+          "suggestedDealType": null,
+          "priceHints": [],
+          "tokenHints": [],
+          "confidence": 0.05,
+          "needsHumanReview": true,
+          "sourceUrl": "https://siliconflow.cn/pricing",
+          "rawPath": "data/raw/siliconflow/siliconflow-cn-pricing-20260414155937.html"
+        }
+      ],
+      "reviewDeals": [],
+      "summary": {
+        "pagesFetched": 6,
+        "pagesFailed": 0,
+        "candidateCount": 14,
+        "reviewDealCount": 0,
+        "existingDealCount": 5,
+        "needsHumanReview": true
+      }
+    }
+  ]
+}

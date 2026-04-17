@@ -1,0 +1,31 @@
+{
+  "platform": {
+    "slug": "aliyun-bailian",
+    "name": "阿里云百炼",
+    "websiteUrl": "https://www.aliyun.com/product/bailian"
+  },
+  "collectedAt": "2026-04-15",
+  "mode": "probe",
+  "pages": [
+    {
+      "url": "https://www.aliyun.com/product/bailian",
+      "method": "visible-browser-dump-dom",
+      "ok": true,
+      "title": "大模型服务平台百炼 - 大模型应用构建 - 阿里云",
+      "rawPath": "data/raw/aliyun-bailian/www-aliyun-com-product-bailian-20260415104555.html",
+      "textChars": 14058,
+      "candidateLinks": [],
+      "candidateSnippets": []
+    }
+  ],
+  "candidates": [],
+  "reviewDeals": [],
+  "summary": {
+    "pagesFetched": 1,
+    "pagesFailed": 0,
+    "candidateCount": 0,
+    "reviewDealCount": 0,
+    "existingDealCount": 7,
+    "needsHumanReview": true
+  }
+}

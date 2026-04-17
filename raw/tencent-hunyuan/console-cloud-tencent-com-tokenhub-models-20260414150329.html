@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+  <meta charset="UTF-8">
+  <meta httpequiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, viewport-fit=cover">
+  <title>登录 - 腾讯云</title>
+  <link rel="icon" href="//cloudcache.tencent-cloud.com/qcloud/favicon.ico" type="image/x-icon">
+  <meta name="keywords" content="登录腾讯云,腾讯云用户登录">
+  <meta name="description" content="腾讯云为数百万的企业和开发者提供安全、稳定的云服务器、云主机、CDN、对象存储、域名注册、云存储、云数据库等云服务，帮助用户解决游戏、视频、移动、微信、互联网+等行业的架构难题，是全球领先的云计算服务商。">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="https://cloudcache.tencent-cloud.com/qcloud/ui/account-system-pc/build/base/base-202307201703.css"><link rel="stylesheet" href="https://cloudcache.tencent-cloud.com/qcloud/ui/account-system-pc/build/Portal/Portal-202603031517.css">
+  
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-940175154&amp;cx=c&amp;gtm=4e64a1h1"></script><script async="" src="//cloudcache.tencent-cloud.cn/open/qcloud/common/analytics.js?max_age=31536000"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KV8Z8NK"></script><script src="https://cdn-go.cn/tam/aegis-sdk/latest/aegis.f.min.js"></script>
+    <script>!function(){"use strict";if(window.Aegis){let n=function(e){var t=new RegExp("(^| )"+decodeURIComponent(e)+"(?:=([^;]*))?(;|$)"),n=document.cookie.match(t);return n?n[2]?decodeURIComponent(n[2]):"":null};var e=[],t=window.aegisIns=new Aegis({id:"dWOw9fv7jg4XmVzQ09",onError:!0,pagePerformance:!0,reportAssetSpeed:!0,reportApiSpeed:!0,api:{reportRequest:!0,resHeaders:["x-req-id"]},ext1:n("qcloud_uid")||"",beforeRequest:function(e){if(/bot|wechatdevtools|spider/i.test(navigator.userAgent))return!1},beforeReportSpeed:function(t){if("static"===t.type&&"function"==typeof URL)try{var n=t.url||"";if(-1!==n.indexOf("asset-retry"))return;var r=new URL(n).hostname;r&&!e.includes(r)&&e.push(r)}catch(o){}}});window.addEventListener("beforeunload",function(){e.length&&t.reportEvent({name:"resource-domain",ext3:e.join("|")})})}}();</script>
+  
+  
+<script type="text/javascript" charset="utf8" async="" src="https://cloudcache.tencent-cloud.com/qcloud/ewp/sdk/ewp-sdk.glsqvz3x.js?max_age=31536000"></script><style id="dynamic-inserted-css-accsys-tp-transition-slide962281310">
+  .accsys-tp-transition-slide962281310-enter {
+      opacity: 0 !important;
+      transform: translate3d(12px, 0px, 0);
+  }
+  .accsys-tp-transition-slide962281310-enter-active {
+      opacity: 1 !important;
+      transform: translate3d(0, 0, 0);
+      transition: opacity 300ms ease,
+                  transform 300ms ease;
+  }
+  .accsys-tp-transition-slide962281310-exit {
+      opacity: 1 !important;
+      transform: translate3d(0, 0, 0);
+  }
+  .accsys-tp-transition-slide962281310-exit-active {
+      opacity: 0 !important;
+      transform: translate3d(12px, 0px, 0);
+      transition: opacity 300ms ease,
+                  transform 300ms ease;
+  }
+  </style><style type="text/css">.ewp_mask {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ewp-task-record .panel_wrap {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  height: 600px;
+  width: 364px;
+  background: #f2f4f8;
+  border: 1px solid #e6e9ef;
+  border-radius: 10px;
+  box-shadow: 0px 8px 24px -4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 8px 12px -8px rgba(0, 0, 0, 0.05);
+  z-index: 9999;
+  box-sizing: border-box;
+}
+#ewp-task-record .panel_content {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+#ewp-task-record .panel_animate_down {
+  animation: panel_height_down 0.3s ease;
+  height: 60px;
+}
+#ewp-task-record .panel_animate_up {
+  animation: panel_height_up 0.3s ease;
+  height: 600px;
+}
+#ewp-task-record .panel_header {
+  height: 60px;
+  padding: 0 20px;
+  position: relative;
+  border-top-right-radius: 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #e9ecf1;
+  background: linear-gradient(270deg, #F2F4F8 44.75%, rgba(241, 242, 245, 0.1) 100%);
+}
+#ewp-task-record .panel_header_bg_img {
+  background-image: url(https://qcloudimg.tencent-cloud.cn/raw/5501345d6bec9942424ae5eacc89a6a5.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0 ;
+  left: 0;
+  right: -250px;
+  bottom: 0;
+}
+#ewp-task-record .panel_header_folded {
+  border-bottom: unset;
+  border-bottom-right-radius: 12px;
+}
+#ewp-task-record .panel_row {
+  display: flex;
+  flex-direction: row;
+}
+#ewp-task-record .panel_row_center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#ewp-task-record .panel_space_between {
+  justify-content: space-between;
+}
+#ewp-task-record .panel_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ewp-task-record .panel_title {
+  margin-left: 12px;
+  margin-right: 8px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font: PingFang SC;
+}
+#ewp-task-record .panel_footer {
+  height: 64px;
+  border-top: 1px solid #e9ecf1;
+  padding: 0 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+#ewp-task-record .panel_text {
+  font-size: 12px;
+  font: PingFang SC;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+#ewp-task-record .panel_text--primary {
+  color: #0052d9;
+}
+#ewp-task-record .panel_text--thin {
+  font-weight: 400;
+}
+#ewp-task-record .panel_text--grey {
+  color: rgba(0, 0, 0, 0.4);
+}
+#ewp-task-record .panel_button {
+  line-height: 32px;
+  padding: 0 24px;
+  background-color: #3377ff;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: PingFang SC;
+}
+#ewp-task-record .panel_text_wrap {
+  display: "block";
+  line-height: 18px;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+}
+#ewp-task-record .panel_task_list_wrap {
+  flex: 1;
+  padding: 8px 16px 16px 16px;
+  overflow-y: scroll;
+  background: #f2f4f8;
+  position: relative;
+}
+#ewp-task-record .panel_task_list_wrap_hide {
+  flex: 0;
+  padding: 0px;
+  position: relative;
+}
+#ewp-task-record .panel_word_break {
+  width: calc(100% - 35px);
+  word-wrap: break-word;
+}
+#ewp-task-record .panel_task_wrap {
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 12px 12px 12px;
+}
+#ewp-task-record .panel_intro_task_wrap {
+  background-color: rgba(227, 236, 255, 0.8);
+  padding: 8px 16px;
+}
+#ewp-task-record .panel_task_left {
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #e9ecf1;
+  text-align: center;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: PingFang SC;
+}
+#ewp-task-record .panel_task_step_img {
+  width: 268px;
+  height: 156px;
+  border-radius: 4px;
+  border: 1px #e9ecf1 solid;
+  position: relative;
+  overflow: hidden;
+}
+#ewp-task-record .panel_task_step_combine_info {
+  justify-content: space-between;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 4px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+#ewp-task-record .panel_task_step_combine_info_text {
+  font-size: 12px;
+  line-height: 20px;
+}
+#ewp-task-record .panel_task_dom_recorder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+#ewp-task-record .panel_task_dom_recorder_preview {
+  position: fixed;
+  left: 15%;
+  right: 15%;
+  bottom: 15%;
+  top: 15%;
+  z-index: 1;
+}
+#ewp-task-record .panel_task_mask {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+#ewp-task-record .panel_task_right {
+  margin-left: 12px;
+  flex: 1;
+  overflow: hidden;
+}
+#ewp-task-record .panel_task_step_title {
+  line-height: 20px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+  display: inline-block;
+}
+#ewp-task-record .panel_task_title_button {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #3377ff;
+  font-weight: 500;
+  cursor: pointer;
+}
+#ewp-task-record .panel_match_parent {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+#ewp-task-record .panel_task_title_wrap {
+  margin-bottom: 2px;
+}
+#ewp-task-record .panel_task_pv_circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  flex-shrink: 0;
+  margin-right: 4px;
+  border: 1px solid;
+  border-color: #c5c5c5;
+}
+#ewp-task-record .panel_task_label {
+  display: inline-block;
+  min-width: 35px;
+}
+#ewp-task-record .panel_task_circle {
+  height: 6px;
+  width: 6px;
+  margin: 2px;
+  border-radius: 3px;
+  background-color: #a6a6a6;
+}
+#ewp-task-record .panel_task_content {
+  margin-bottom: 2px;
+  min-height: 32px;
+  position: relative;
+}
+#ewp-task-record .panel_task_content_space {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+}
+#ewp-task-record .panel_task_content_block {
+  margin: 5px 0 5px 10px;
+  background: rgba(241, 242, 245, 0.5);
+  padding: 10px;
+  width: calc(100% - 30px);
+}
+#ewp-task-record .panel_loading {
+  margin-right: 4px;
+  animation: linear panel_loading 1s infinite;
+}
+#ewp-task-record .panel_pointer {
+  cursor: pointer;
+  pointer-events: all;
+}
+#ewp-task-record .task_add_wrap {
+  position: fixed;
+  z-index: 99999;
+}
+#ewp-task-record .task_add_content_border {
+  box-sizing: border-box;
+  padding: 1px;
+  border-radius: 8px;
+  background-image: linear-gradient(79.4deg, #004FEE 7.89%, #593BFD 50%);
+  box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+#ewp-task-record .task_add_content {
+  border-radius: 8px;
+  padding: 12px;
+  background: #ffffff;
+}
+#ewp-task-record .task_add_text {
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 5px;
+}
+#ewp-task-record .task_add_grey {
+  font-size: 12px;
+  margin-left: 4px;
+  color: rgba(0, 0, 0, 0.4);
+}
+#ewp-task-record .task_add_bold {
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+#ewp-task-record .panel_footer_redo {
+  margin-left: 8px;
+  font-family: PingFang SC;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+#ewp-task-record .panel_add_checkbox_label {
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 16px;
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 20px;
+}
+#ewp-task-record .panel_add_checkbox_input:checked,
+#ewp-task-record .panel_add_checkbox_input:focus,
+#ewp-task-record .panel_add_checkbox_input:checked:hover {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNNS43IDguM0wyLjkgNS41IDEuNSA2LjlsNC4yIDQuMiA2LjQtNi40LTEuNC0xLjQtNSA1eiIvPjwvZGVmcz48dXNlIHhsaW5rOmhyZWY9IiNhIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNmZmYiLz48L3N2Zz4=);
+  background-color: #0052d9;
+  border-color: #0052d9;
+  background-position: inherit;
+  background-size: 100% auto;
+}
+#ewp-task-record .panel_add_checkbox_input:indeterminate {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTIgNmgxMHYySDJ6Ii8+PC9zdmc+);
+  background-color: #0052d9;
+  border-color: #0052d9;
+  background-position: inherit;
+  background-size: 100% auto;
+}
+#ewp-task-record .panel_add_checkbox_input {
+  height: 16px;
+  cursor: pointer;
+  vertical-align: middle;
+  outline: none;
+  -webkit-appearance: none;
+  border: 1px solid #d6dbe3;
+  background-color: #fff;
+  border-radius: 0;
+  color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 1px;
+  left: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+#ewp-task-record .panel_add_checkbox_text {
+  line-height: 16px;
+  cursor: pointer;
+  font-size: 12px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+#ewp-task-record .panel_bubble_wrap {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+}
+#ewp-task-record .panel_bubble_item {
+  height: 30px;
+  width: 90px;
+  padding-left: 10px;
+  background-color: #fff;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+}
+#ewp-task-record .panel_task_exit_pop_content {
+  background: #fff;
+  z-index: 1;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);
+}
+#ewp-task-record .panel_task_exit_pop_title {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+#ewp-task-record .panel_task_exit_pop_text {
+  font-size: 12px;
+  word-wrap: break-word;
+  word-break: break-word;
+  color: rgba(0, 0, 0, 0.9);
+}
+#ewp-task-record .panel_task_exit_pop_footer {
+  margin-top: 24px;
+  text-align: right;
+}
+#ewp-task-record .panel_task_exit_pop_button {
+  margin-left: 10px;
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  padding: 5px;
+  vertical-align: middle;
+  line-height: 1.5;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: 0 none;
+  min-width: 24px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.9);
+}
+#ewp-task-record .task_add_primary {
+  color: #0052d9;
+  margin-left: 8px;
+}
+#ewp-task-record .combine-modal-wrap {
+  position: fixed;
+  z-index: 1001;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ewp-task-record .combine-modal-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  overflow-y: auto;
+}
+#ewp-task-record .combine-modal-content {
+  width: 750px;
+  height: 542px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  z-index: 1001;
+  position: relative;
+}
+#ewp-task-record .combine-modal-title {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 600;
+  font-family: PingFang SC;
+}
+#ewp-task-record .combine-modal-desc {
+  display: block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+#ewp-task-record .combine-modal-events {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#ewp-task-record .combine-modal-events-content {
+  display: flex;
+  flex-direction: column;
+}
+#ewp-task-record .combine-modal-events-title {
+  display: block;
+  font-family: PingFang SC;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 10px;
+}
+#ewp-task-record .combine-modal-events-list {
+  height: 360px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdfe6;
+}
+#ewp-task-record .combine-modal-events-list-content {
+  height: 320px;
+  overflow-y: scroll;
+}
+#ewp-task-record .combine-modal-events-list-loading {
+  height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+#ewp-task-record .combine-modal-events-content-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#ewp-task-record .combine-modal-events-list-item {
+  height: 56px;
+  border-bottom: 1px solid var(--color-border-primary-default, #e6e9ef);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+#ewp-task-record .combine-modal-events-list-item-header {
+  height: 40px;
+}
+#ewp-task-record .combine-modal-events-list-item-name-wrap {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+}
+#ewp-task-record .combine-modal-events-list-item-name {
+  font-family: PingFang SC;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.9);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#ewp-task-record .combine-modal-events-list-item-id {
+  font-family: PingFang SC;
+  font-size: 12px;
+  line-height: 18px;
+  color: #888888;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#ewp-task-record .combine-modal-events-list-item-icon-wrap {
+  width: 36px;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ewp-task-record .combine-modal-footer {
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#ewp-task-record .combine-modal-footer-btn {
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 20px;
+  background: #0052d9;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#ewp-task-record .combine-modal-footer-btn-cancel {
+  background: #fff;
+  color: #0052d9;
+  border: 1px solid #cfd5de;
+}
+.panel_target_bg {
+  border: 3px solid rgba(255, 132, 32, 0.5);
+  position: fixed;
+  background-color: rgba(255, 132, 32, 0.16);
+  z-index: 99999;
+  border-radius: 4px;
+}
+@keyframes panel_height_down {
+  0% {
+    height: 600px;
+  }
+  100% {
+    height: 60px;
+  }
+}
+@keyframes panel_height_up {
+  0% {
+    height: 60px;
+  }
+  100% {
+    height: 600px;
+  }
+}
+@keyframes panel_loading {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+</style><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/940175154/?random=1776150208480&amp;cv=11&amp;fst=1776150208480&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be64a1h1z877048748za20gzb77048748zd77048748xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938466~115938469~117266400~117384405~118131809&amp;u_w=800&amp;u_h=600&amp;url=https%3A%2F%2Fcloud.tencent.com%2Flogin%3Fs_url%3Dhttps%253A%252F%252Fconsole.cloud.tencent.com%252Ftokenhub%252Fmodels&amp;rcb=13&amp;frm=0&amp;tiba=%E7%99%BB%E5%BD%95%20-%20%E8%85%BE%E8%AE%AF%E4%BA%91&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=924595811.1776150208&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B147.0.7727.55%7CNot.A%252FBrand%3B8.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Linux&amp;uapv=&amp;uaw=0&amp;_tu=CA&amp;rfmt=3&amp;fmt=4"></script><style data-opc-ads-placement-id="10014">.ad-accsys-event-panel__N26 {
+  width: 360px;
+}
+
+.ad-accsys-event-panel__img__NGp {
+  margin-bottom: 25px;
+  display: inline-block;
+}
+
+.ad-accsys-event-panel__tit__kuq {
+  margin-bottom: 16px;
+  margin-top: 0px;
+  line-height: 36px;
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.ad-accsys-event-panel__tit__kuq .ad-primary-text__a7f {
+  color: #0052d9;
+}
+
+.ad-accsys-event-panel__content__hhB {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4b5b76;
+}
+
+.ad-accsys-event-panel__link__f54 {
+  margin-top: 40px;
+}
+
+.ad-accsys-event-panel__link__f54 .ad-accsys-tp-link__cNV:hover {
+  color: #0052d9;
+}
+
+.ad-accsys-event-panel__link__f54 .ad-accsys-tp-btn--white-hole__HUl {
+  color: #0052d9;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.ad-accsys-event-panel__link__f54 .ad-accsys-tp-btn--white-hole__HUl:hover {
+  color: #fff;
+  background-color: #0052d9;
+  border-color: #0052d9;
+}
+
+.ad-accsys-event-panel__feature__xFq {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4b5b76
+}
+
+.ad-accsys-event-panel__feature__xFq:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.138 6.138L7 11.276 3.862 8.138l.943-.943L7 9.391l4.195-4.196.943.943z' fill='%230052D9' /%3e %3c/svg%3e");
+  background-size: 100%
+}
+
+.ad-accsys-event-panel__item__RpA {
+  line-height: 22px;
+  font-size: 14px;
+  color: rgba(0,0,0,.9)
+}
+
+.ad-accsys-event-panel__item__RpA+.ad-accsys-event-panel__item__RpA {
+  margin-top: 8px
+}
+
+.ad-accsys-tp-btn__gBf {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 104px;
+  height: 36px;
+  padding: 0 24px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 34px;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  background-color: #0052d9;
+  border: 1px solid transparent;
+  outline: 0 none;
+  cursor: pointer;
+}
+
+.ad-accsys-tp-btn__gBf.ad-size-l__lHD {
+  min-width: 152px;
+  height: 40px;
+  padding: 0 24px;
+  line-height: 38px;
+}
+
+.ad-accsys-tp-btn__text__o3h {
+  color: inherit;
+}
+
+.ad-a_wrap__YE5 {
+  text-decoration: none;
+}
+
+.ad-accsys-pg-login__btn-cart__tUb {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  color: #0052d9;
+  border: 1px solid #0052d9;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 7px 22px 7px 54px;
+  box-sizing: border-box;
+  transition: all .2s linear;
+}
+
+.ad-accsys-pg-login__btn-cart__tUb:before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-color: #0052d9;
+  position: absolute;
+  left: -5px;
+  top: 0;
+  transform: skewX(15deg)
+}
+
+.ad-accsys-pg-login__btn-cart__tUb:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  margin-top: -8px;
+  left: 5px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3e %3cpath fill-rule='evenodd' clip-rule='evenodd' d='M4.669 1.5H.9v2h2.205l2.001 8h9.791v-2h-.814L15.1 3.535H5.178L4.668 1.5zm1.009 4.035L6.669 9.5h5.386l.674-3.965H5.678zm2.21 6.965h-2v2h2v-2zm3 0h2v2h-2v-2z' fill='white' /%3e %3c/svg%3e");
+  background-repeat: no-repeat
+}
+
+.ad-accsys-pg-login__btn-cart__tUb:hover {
+  border-color: #0052d9;
+  color: #0052d9;
+  background-color: #ecf2fe
+}</style><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/940175154/?random=1776150209053&amp;cv=11&amp;fst=1776150209053&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be64a1h1z877048748za20gzb77048748zd77048748xea&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=0~115938466~115938469~117266400~117384405~118131809&amp;u_w=800&amp;u_h=600&amp;url=https%3A%2F%2Fcloud.tencent.com%2Flogin%3Fs_url%3Dhttps%253A%252F%252Fconsole.cloud.tencent.com%252Ftokenhub%252Fmodels&amp;rcb=13&amp;frm=0&amp;tiba=%E7%99%BB%E5%BD%95%20-%20%E8%85%BE%E8%AE%AF%E4%BA%91&amp;hn=www.googleadservices.com&amp;npa=0&amp;pscdl=noapi&amp;auid=924595811.1776150208&amp;uaa=x86&amp;uab=64&amp;uafvl=Chromium%3B147.0.7727.55%7CNot.A%252FBrand%3B8.0.0.0&amp;uamb=0&amp;uam=&amp;uap=Linux&amp;uapv=&amp;uaw=0&amp;_tu=CA&amp;rfmt=3&amp;fmt=4"></script></head>
+<body class="lng-zh">
+  <div id="app-root"><div class="accsys-pg-login"><div class="accsys-layout" style="background-image: url(&quot;https://cloudcache.tencent-cloud.com/qcloud/ui/static/tc_portal/c3f153dd-80a0-40a8-9a54-a3b7d6717ab8.jpg&quot;);"><div class="accsys-layout__header"><div class="accsys-nav accsys-nav--white"><div class="accsys-nav-top"><div class="accsys-nav-top__main"><a class="accsys-nav-top__logo" href="https://cloud.tencent.com/"><i class="accsys-nav-top__logo-icon">腾讯云</i></a><span class="accsys-nav-top__path">登录</span></div><div class="accsys-nav-top__operation"><div class="accsys-nav-top__ctrl"><div class="accsys-nav-bubble-wrap accsys-nav-bubble--lang"><a class="accsys-nav-bubble-trigger"><i class="accsys-nav-bubble-trigger__icon"></i>中国站</a><div class="accsys-nav-bubble"><div class="accsys-nav-bubble__inner"><ul class="accsys-nav-bubble__menu"><li class="accsys-nav-bubble__menu-item is-active"><a class="accsys-nav-bubble__menu-link" hotrep="go.中国站" href="//cloud.tencent.com">中国站</a></li><li class="accsys-nav-bubble__menu-item"><a class="accsys-nav-bubble__menu-link" hotrep="go.International - English" href="https://intl.cloud.tencent.com/?lang=en&amp;pg=">International - English</a></li><li class="accsys-nav-bubble__menu-item"><a class="accsys-nav-bubble__menu-link" hotrep="go.International - 한국어" href="https://intl.cloud.tencent.com/ko/?lang=ko&amp;pg=">International - 한국어</a></li><li class="accsys-nav-bubble__menu-item"><a class="accsys-nav-bubble__menu-link" hotrep="go.International - 日本語" href="https://intl.cloud.tencent.com/jp/?lang=jp&amp;pg=">International - 日本語</a></li><li class="accsys-nav-bubble__menu-item"><a class="accsys-nav-bubble__menu-link" hotrep="go.International - 简体中文" href="https://intl.cloud.tencent.com/zh/">International - 简体中文</a></li></ul></div></div></div></div></div></div></div></div><div class="accsys-layout__body"><div class="accsys-message accsys-pg-login__mfa-message"><div class="accsys-message__inner"><div class="accsys-message__object"><i class="accsys-message__icon"></i></div><div class="accsys-message__main"><div class="accsys-message__desc"><div>【重要】为了增强您的账户与资产安全保障，自2025年6月30日起，将分批为所有用户<strong>自动禁用超过90天未使用的 AccessKey，</strong>详情见<a href="https://cloud.tencent.com/announce/detail/2047" class="accsys-tp-link" target="_blank"><span class="accsys-tp-link__inner"><span class="accsys-text accsys-text--primary accsys-text--underline">公告</span></span></a></div></div></div><div class="accsys-message__extra"><button class="accsys-message__close"><span class="accsys-message__close-icon"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M12 4.95067L11.0494 4L8 7.04967L4.95059 4L4 4.95067L7.04941 8.00034L4 11.0493L4.95059 12L8 8.951L11.0494 12L12 11.0493L8.95059 8.00034L12 4.95067Z"></path></svg></span></button></div></div></div><div class="accsys-layout__content"><div class="accsys-layout__content-main"><div class="accsys-control-panel"><div class="accsys-control-panel__corner"><div class="accsys-control-panel__corner-inner"><a class="accsys-control-panel__corner-btn" hotrep="corner.btn" href="https://cloud.tencent.com/register?s_url=https%3A%2F%2Fconsole.cloud.tencent.com%2Ftokenhub%2Fmodels">注册</a></div></div><div class="accsys-control-column"><div class="accsys-control-column__main"><div class="accsys-control-column__tab"><div class="accsys-tp-tabs"><div class="accsys-tp-tabs__bar"><ul class="accsys-tp-tabs__list" role="tablist" style="transition: transform 0.5s ease-out; transform: translate3d(0px, 0px, 0px);"><li class="accsys-tp-tabs__item is-active"><div class="accsys-tp-tabs__item-cont" tabindex="0" role="tab" id="wx" aria-selected="true"><div class="accsys-tp-tabs__item-title"><div class="accsys-tp-tabs__item-label">微信登录</div></div></div></li><li class="accsys-tp-tabs__item"><div class="accsys-tp-tabs__item-cont" tabindex="-1" role="tab" id="email" aria-selected="false"><div class="accsys-tp-tabs__item-title"><div class="accsys-tp-tabs__item-label">邮箱登录</div></div></div></li></ul><div class="accsys-tp-tabs__backward accsys-tp-tabs__backward--disabled"></div><div class="accsys-tp-tabs__forward accsys-tp-tabs__forward--disabled"></div></div><div class="accsys-tp-tabs__cont"><div class="accsys-tp-tabs__tabpanel is-active" role="tabpanel" aria-hidden="false" style="transition: opacity 0.5s; transform-origin: center center; flex-shrink: 0;"><div style="display: flex; flex-direction: column;"><span class="accsys-text"><div class="accsys-message"><div class="accsys-message__inner"><div class="accsys-message__object"><i class="accsys-message__icon"></i></div><div class="accsys-message__main"><div class="accsys-message__desc"><p class="accsys-text">您的浏览器还未开启本地网络访问权限，可能会影响微信快捷登录，<span class="accsys-text accsys-text--bold accsys-text--underline">开启指引</span></p></div></div><div class="accsys-message__extra"><button class="accsys-message__close"><span class="accsys-message__close-icon"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M12 4.95067L11.0494 4L8 7.04967L4.95059 4L4 4.95067L7.04941 8.00034L4 11.0493L4.95059 12L8 8.951L11.0494 12L12 11.0493L8.95059 8.00034L12 4.95067Z"></path></svg></span></button></div></div></div></span><div class="accsys-control-column__scan"><div class="accsys-control-column__scan-qrcode"><div class="accsys-tp-qr accsys-tp-qr--iframe"><div class="accsys-tp-qr__mod"><div class="accsys-tp-qr__img"><iframe src="https://open.weixin.qq.com/connect/qrconnect?appid=wxca396cd1df083b9d&amp;redirect_uri=https%3A%2F%2Fcloud.tencent.com%2Flogin%2Fcallback%3Flogin_type%3Dwx%26s_url%3Dhttps%253A%252F%252Fconsole.cloud.tencent.com%252Ftokenhub%252Fmodels%26fwd_flag%3D7%26action%3Dassociate&amp;response_type=code&amp;state=jjUWkIRLDbbS&amp;href=https://cloudcache.tencent-cloud.com/qcloud/ui/account-system-pc/build/WxLogin/WxLogin-202412121454.css&amp;self_redirect=true&amp;t=1776150207792&amp;scope=snsapi_login#wechat_redirect" frameborder="no" title="dhsop9jln080" scrolling="no" allow="local-network-access"></iframe></div></div></div></div><div class="accsys-control-column__scan-switch is-active-0"><div class="accsys-control-column__scan-switch-bar"><div class="accsys-control-column__scan-switch-active"></div><div class="accsys-control-column__scan-switch-btnwrap"><button class="accsys-control-column__scan-switch-btn is-active"><i class="accsys-control-column__scan-switch-icon wechat"></i>微信</button><button class="accsys-control-column__scan-switch-btn"><i class="accsys-control-column__scan-switch-icon wechat-work"></i>企业微信</button></div></div></div></div></div></div><div class="accsys-tp-tabs__tabpanel" role="tabpanel" aria-hidden="true" style="height: 0px; width: 0px; overflow: hidden; opacity: 0; padding: 0px; margin: 0px; pointer-events: none; display: block; transition: opacity 0.5s; transform-origin: center center; flex-shrink: 0;"></div><div class="accsys-tp-tabs__tabpanel" role="tabpanel" aria-hidden="true" style="height: 0px; width: 0px; overflow: hidden; opacity: 0; padding: 0px; margin: 0px; pointer-events: none; display: block; transition: opacity 0.5s; transform-origin: center center; flex-shrink: 0;"></div></div></div></div><div class="accsys-control-column__others"><div class="accsys-control-column__others-label"><span class="accsys-control-column__others-label__content">其他登录方式</span></div><div class="accsys-control-column__others-content"><button class="accsys-tp-btn accsys-tp-btn--link accsys-tp-btn--icon"><span class="accsys-tp-btn__icon"><svg viewBox="0 0 16 16"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9"><path d="M12.6930228,6.79777837 C12.6935228,6.77812837 12.7021228,6.44639837 12.7021228,6.27530837 C12.7021228,3.39439837 11.3425228,0.499496371 7.99911284,0.499496371 C4.65575284,0.499496371 3.29614284,3.39439837 3.29614284,6.27530837 C3.29614284,6.44634837 3.30453284,6.77797837 3.30506284,6.79762837 C3.30511284,6.79764837 3.30485284,6.79755837 3.30506284,6.79762837 L2.63013284,8.48237837 C2.63043284,8.48247837 2.63074284,8.48256837 2.63105284,8.48265837 C2.44625284,8.96466837 2.26377284,9.46654837 2.13009284,9.89694837 C1.49247284,11.9495984 1.69905284,12.7990984 1.85634284,12.8180984 C2.19390284,12.8588984 3.17023284,11.2728984 3.17023284,11.2728984 C3.17023284,12.1911984 3.64250284,13.3896984 4.66507284,14.2551984 C4.28255284,14.3730984 3.81375284,14.5546984 3.51249284,14.7771984 C3.24171284,14.9771984 3.27549284,15.1810984 3.32431284,15.2634984 C3.53853284,15.6250984 6.99984284,15.4943984 7.99963284,15.3817984 C9.00021284,15.4943984 12.4607228,15.6249984 12.6749228,15.2633984 C12.7237228,15.1810984 12.7575228,14.9770984 12.4867228,14.7771984 C12.1856228,14.5547984 11.7171228,14.3732984 11.3347228,14.2552984 C12.3574228,13.3897984 12.8297228,12.1912984 12.8297228,11.2728984 C12.8297228,11.2728984 13.8061228,12.8588984 14.1437228,12.8180984 C14.3009228,12.7990984 14.5075228,11.9495984 13.8699228,9.89694837 C13.7362228,9.46644837 13.5536228,8.96445837 13.3688228,8.48234837 C13.3688228,8.48234837 13.3684228,8.48229837 13.3677228,8.48221837 L12.6930228,6.79777837 Z" fill="currentColor" fill-rule="nonzero"></path></g></svg></span><span class="accsys-tp-btn__text">QQ</span></button><button class="accsys-tp-btn accsys-tp-btn--link accsys-tp-btn--icon"><span class="accsys-tp-btn__icon"><svg viewBox="0 0 16 16"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9"><path d="M1.62535 6.43231C1.85228 8.08831 2.88321 9.69927 4.38658 10.7244C4.50086 10.8012 4.57903 10.9298 4.58542 11.0785C4.58709 11.1181 4.5819 11.1557 4.57413 11.1938L4.31554 12.3679L4.29965 12.4334C4.29168 12.4666 4.28513 12.5002 4.28656 12.5338C4.29191 12.6576 4.39579 12.7539 4.51914 12.7487C4.56759 12.7464 4.60623 12.7265 4.6462 12.7013L6.07259 11.7867C6.17989 11.718 6.29477 11.6736 6.42287 11.6681C6.47935 11.6656 6.53374 11.672 6.58649 11.683C7.01896 11.7794 7.46851 11.8328 7.93263 11.8328C9.34564 11.8328 10.4648 11.5042 11.5219 10.7265C11.4944 11.1664 11.3622 11.6957 11.2413 12.0075C10.2462 14.5748 7.36597 15.6878 4.34734 14.6964C1.72254 13.8343 0.114106 10.7564 0.848997 8.18728C1.04606 7.49876 1.24743 7.02647 1.62535 6.43231ZM14.3392 6.3518C15.9979 8.50431 15.54 11.8095 13.2138 13.6019C12.636 14.0471 11.9625 14.3076 11.3043 14.4898C11.8507 13.9037 12.2844 13.195 12.5553 12.3844C13.5733 9.33758 11.9225 6.02396 8.86806 4.98337C8.80178 4.96078 8.7352 4.94116 8.66877 4.9211C10.7318 4.15604 13.0172 4.63606 14.3392 6.3518ZM7.93853 0.9375C10.0505 0.937798 11.9157 2.23549 12.6531 3.75193L12.5463 3.71679C10.8785 3.18226 8.62317 3.12669 6.50783 4.74259C5.31105 5.74453 4.39827 7.10746 4.15217 8.84044C3.49946 8.15667 3.04307 7.07596 2.92091 6.25695C2.74273 5.06463 3.02717 3.86904 3.87204 2.84747C5.13718 1.3175 6.83018 0.937203 7.93853 0.9375Z" fill="currentColor"></path></g></svg></span><span class="accsys-tp-btn__text"><span class="accsys-text accsys-text--underline">小程序公众号</span></span></button><button class="accsys-tp-btn accsys-tp-btn--link accsys-tp-btn--icon"><span class="accsys-tp-btn__icon"><svg viewBox="0 0 16 16"><g clip-path="url(#clip0_7985_14193)"><path d="M7.99828 8.17454C9.73637 8.17454 11.1441 6.76677 11.1441 5.02868C11.1441 3.29059 9.73637 1.88281 7.99828 1.88281C6.26018 1.88281 4.85241 3.29059 4.85241 5.02868C4.85241 6.76677 6.26018 8.17454 7.99828 8.17454ZM7.99828 10.1069C5.89841 10.1069 1.70654 11.1607 1.70654 13.2527L1.70654 14.1076H14.29V13.2527C14.29 11.1607 10.0981 10.1069 7.99828 10.1069Z" fill="currentColor" fill-opacity="0.9"></path></g><defs><clipPath id="clip0_7985_14193"><rect width="16" height="16" fill="currentColor"></rect></clipPath></defs></svg></span><span class="accsys-tp-btn__text">子用户</span></button><button class="accsys-tp-btn accsys-tp-btn--link accsys-tp-btn--icon"><span class="accsys-tp-btn__icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><g clip-path="url(#clip0_12309_2754)"><path d="M15.75 7.75H13.75V8.40039H15.75V9.90039H13.75V10.5117C15.0134 10.6371 16 11.7036 16 13C16 14.3807 14.8807 15.5 13.5 15.5C12.1193 15.5 11 14.3807 11 13C11 12.0751 11.5033 11.2693 12.25 10.8369V6.25H15.75V7.75ZM7.99805 10.1035C8.80335 10.1035 9.91619 10.2602 10.9824 10.5693C10.3744 11.1989 10 12.0556 10 13C10 13.386 10.0633 13.7572 10.1787 14.1045H1.70703L1.70605 13.25C1.70605 11.1581 5.89811 10.1036 7.99805 10.1035ZM13.5 12C12.9477 12 12.5 12.4477 12.5 13C12.5 13.5523 12.9477 14 13.5 14C14.0523 14 14.5 13.5523 14.5 13C14.5 12.4477 14.0523 12 13.5 12ZM7.99805 1.87988C9.73602 1.87988 11.1443 3.28746 11.1445 5.02539C11.1445 6.76348 9.73614 8.17188 7.99805 8.17188C6.26006 8.17175 4.85254 6.76341 4.85254 5.02539C4.85273 3.28754 6.26018 1.88001 7.99805 1.87988Z" fill="currentColor"></path></g><defs><clipPath id="clip0_12309_2754"><rect width="16" height="16" fill="white"></rect></clipPath></defs></svg></span><span class="accsys-tp-btn__text">通行密钥</span></button></div></div></div></div><div class="accsys-tips"><div class="accsys-tips__inner"><div class="accsys-tips__content"><div class="accsys-tips__links"><a class="accsys-tp-link" hotrep="account.recover.bottom"><span class="accsys-tp-link__inner">忘记账号</span></a><span class="accsys-tips__split"></span><a class="accsys-tp-link" hotrep="password.recover.bottom"><span class="accsys-tp-link__inner">忘记密码</span></a><span class="accsys-tips__split"></span><a class="accsys-tp-link"><span class="accsys-tp-link__inner">登录异常帮助文档</span></a></div></div></div></div></div></div><div class="accsys-layout__content-side"><div id="ads" class="accsys-event-panel" data-opc-ads-placement-id="10014"><div class="ad-accsys-event-panel__N26 ">
+  <a href="https://cloud.tencent.com/act/pro/edgeone_anniversary?ad_trace=c51894efdf24487c80907c069ad87a3a&amp;from=29709&amp;from_column=29709" class="ad-a_wrap__YE5" target="_blank" data-ad-role-click="">
+    <h3 class="ad-accsys-event-panel__tit__kuq">EdgeOne<br><span style="color: #0052d9;">AI 爬虫处置免费启用</span></h3>
+    <div>
+          <div class="ad-accsys-event-panel__feature__xFq">
+            有效管理 AI 爬虫流量，零门槛减少服务器带宽消耗
+          </div>
+          <div class="ad-accsys-event-panel__feature__xFq">
+            免费配置 AI 访问权限，保护内容主权
+          </div>
+          <div class="ad-accsys-event-panel__feature__xFq">
+            助力排除 AI 干扰数据，真实反映用户行为
+          </div>
+          <div class="ad-accsys-event-panel__feature__xFq">
+            多种处置模式，开发者可根据业务需求灵活配置
+          </div>
+    </div>
+      <div class="ad-accsys-event-panel__link__f54">
+          <button class="ad-accsys-tp-btn__gBf
+                ad-accsys-tp-btn--white-hole__HUl
+                ad-size-l__lHD">
+              <span class="ad-accsys-tp-btn__text__o3h">
+                免费体验
+              </span>
+           </button>
+      </div>
+  </a>
+</div>
+</div></div></div></div><div class="accsys-layout__footer"><div class="accsys-tencent-links"><i class="accsys-tencent-links__icon"></i><a href="http://open.qq.com/" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.open">腾讯开放平台</a><a href="https://meeting.tencent.com/" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.meeting">腾讯会议</a><a href="http://mp.weixin.qq.com/" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.mp">微信公众平台</a><a href="http://open.youtu.qq.com/" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.youtu">腾讯优图</a><a href="https://qidian.qq.com/?&amp;utm_source=relatedlinks&amp;utm_medium=tencentcloud&amp;utm_term=footer" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.qidian">腾讯企点</a><a href="http://www.weiyun.com/" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.weiyun">腾讯微云</a><a href="https://docs.qq.com/index.html?adtag=tencentcloud" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.docs">腾讯文档</a><a href="https://qian.tencent.com/?channel=promotion_free_txCloudLinks2brandOfficialSite" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.ess">腾讯电子签</a><a href="https://cloud.tencent.com/friendlink" target="_blank" rel="nofollow" class="accsys-tencent-links__item" hotrep="hp.footer.flink.friendlink">友情链接</a></div><div class="accsys-copyright"><div class="accsys-copyright__inner">Copyright © 2013 - 2026 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有&nbsp;&nbsp;&nbsp; Tencent 腾讯旗下云平台，相关服务主体：深圳市腾讯计算机系统有限公司 | 腾讯云计算（北京）有限责任公司</div></div></div></div></div></div>
+  <script type="text/javascript">
+    window.serverTime = (function(s, c) {return function(){return +new Date()+s-c;}})(+'1776150206816', +new Date());
+    window.$locale = {"lang":"zh","cookieDomain":".cloud.tencent.com","isSupportWxOauth":false,"isSupportQQOauth":false,"isCompanyExportIP":false};
+    window.reqId = 'hWlchBREQQtt';
+    window.PORTAL_HOST = 'cloud.tencent.com';
+  </script>
+  
+  <script src="https://cloudcache.tencent-cloud.com/qcloud/main/scripts/release/common/vendors/babel/polyfill.6.26.min.js"></script><script src="https://cloudcache.tencent-cloud.com/qcloud/main/scripts/release/common/vendors/react/react.17.0.1.min.js"></script><script src="https://cloudcache.tencent-cloud.com/qcloud/main/scripts/release/common/vendors/react/react-dom.17.0.1.min.js"></script>
+  <script crossorigin="" src="https://cloudcache.tencent-cloud.com/qcloud/qcloud-passport/login.d80c50e66f.js"></script>
+  <script src="//dscache.tencent-cloud.cn/ecache/qcstat/qcloud/qcloudStatApi.js" async=""></script>
+  
+  
+
+<div id="accsys-tp-overlay-root"></div></body></html>

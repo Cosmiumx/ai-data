@@ -1,0 +1,29 @@
+{
+  "toolCount": 21,
+  "rawRootLooseFiles": [],
+  "missingPlatformDirs": [],
+  "extraPlatformDirs": [],
+  "screenshotCounts": {
+    "aliyun-bailian": 3,
+    "tencent-hunyuan": 1,
+    "baidu-qianfan": 2,
+    "volcengine-ark": 0,
+    "zhipu-bigmodel": 3,
+    "siliconflow": 0,
+    "minimax": 2,
+    "infini-ai": 0,
+    "hpccube": 0,
+    "kimi": 0,
+    "nvidia-nim": 0,
+    "openai": 0,
+    "anthropic": 0,
+    "google-gemini": 0,
+    "deepseek": 0,
+    "sophnet": 0,
+    "openrouter": 0,
+    "jdcloud": 0,
+    "iflytek-spark": 0,
+    "huaweicloud": 0,
+    "xiaomi-mimo": 0
+  }
+}

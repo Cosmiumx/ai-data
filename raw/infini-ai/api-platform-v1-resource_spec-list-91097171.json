@@ -1,0 +1,1 @@
+{"code":20000,"data":null,"msg":"Unknown error [json: cannot unmarshal number into Go struct field ApiPlatformUserV1ResourceSpecListReq.product_type of type constant.ProductType]"}

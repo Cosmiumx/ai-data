@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-04-15T09:18:00+08:00",
+  "summary": {
+    "toolCount": 21,
+    "rawPlatformDirCount": 20,
+    "looseRawFileCount": 19,
+    "plannedMoves": 19,
+    "plannedMerges": 2,
+    "missingPlatformDirs": [
+      "jdcloud",
+      "openrouter",
+      "sophnet"
+    ],
+    "extraPlatformDirs": []
+  },
+  "schemaRecommendation": {
+    "currentTopKeys": [
+      "version",
+      "categories",
+      "tools"
+    ],
+    "currentDealsLocation": "tools[].deals",
+    "recommended": {
+      "keep": [
+        "version",
+        "categories",
+        "tools"
+      ],
+      "add": [
+        "deals"
+      ],
+      "dealModel": "top-level deals[] with toolSlug/sourceRefs/evidenceRefs; optional derived tools[].dealCount only",
+      "reason": "avoid duplicating deals inside tools; easier filtering/export/validation"
+    }
+  },
+  "fileMoves": [
+    {
+      "from": "data/raw/zhipu-bigmodel.txt",
+      "to": "data/raw/zhipu-bigmodel/zhipu-bigmodel.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/sophnet.txt",
+      "to": "data/raw/sophnet/sophnet.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/anthropic.txt",
+      "to": "data/raw/anthropic/anthropic.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/jdcloud.txt",
+      "to": "data/raw/jdcloud/jdcloud.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/huaweicloud.txt",
+      "to": "data/raw/huaweicloud/huaweicloud.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/hpccube.txt",
+      "to": "data/raw/hpccube/hpccube.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/volcengine-ark.txt",
+      "to": "data/raw/volcengine-ark/volcengine-ark.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/qianfan-text.txt",
+      "to": "data/raw/baidu-qianfan/qianfan-text.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/minimax.txt",
+      "to": "data/raw/minimax/minimax.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/tencent-hunyuan.txt",
+      "to": "data/raw/tencent-hunyuan/tencent-hunyuan.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/openai.txt",
+      "to": "data/raw/openai/openai.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/infini-ai.txt",
+      "to": "data/raw/infini-ai/infini-ai.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/xiaomi-mimo.txt",
+      "to": "data/raw/xiaomi-mimo/xiaomi-mimo.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/kimi.txt",
+      "to": "data/raw/kimi/kimi.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/nvidia-nim.txt",
+      "to": "data/raw/nvidia-nim/nvidia-nim.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/siliconflow.txt",
+      "to": "data/raw/siliconflow/siliconflow.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/openrouter.txt",
+      "to": "data/raw/openrouter/openrouter.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/iflytek-spark.txt",
+      "to": "data/raw/iflytek-spark/iflytek-spark.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    },
+    {
+      "from": "data/raw/deepseek.txt",
+      "to": "data/raw/deepseek/deepseek.txt",
+      "action": "move",
+      "reason": "loose raw file should live under platform directory"
+    }
+  ],
+  "directoryMerges": [
+    {
+      "from": "data/raw/xunfei-spark",
+      "to": "data/raw/iflytek-spark",
+      "action": "merge_or_mark_legacy",
+      "reason": "duplicate/legacy naming; main tool slug uses target"
+    },
+    {
+      "from": "data/raw/tencent-cloud",
+      "to": "data/raw/tencent-hunyuan",
+      "action": "merge_or_mark_legacy",
+      "reason": "duplicate/legacy naming; main tool slug uses target"
+    }
+  ],
+  "screenshotStatus": [
+    {
+      "slug": "aliyun-bailian",
+      "rawDirExists": true,
+      "rawFileCount": 21,
+      "screenshotsDirExists": true,
+      "screenshotCount": 3
+    },
+    {
+      "slug": "anthropic",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "baidu-qianfan",
+      "rawDirExists": true,
+      "rawFileCount": 12,
+      "screenshotsDirExists": true,
+      "screenshotCount": 2
+    },
+    {
+      "slug": "deepseek",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "google-gemini",
+      "rawDirExists": true,
+      "rawFileCount": 0,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "hpccube",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "huaweicloud",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": false,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "iflytek-spark",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": false,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "infini-ai",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "jdcloud",
+      "rawDirExists": false,
+      "rawFileCount": 0,
+      "screenshotsDirExists": false,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "kimi",
+      "rawDirExists": true,
+      "rawFileCount": 8,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "minimax",
+      "rawDirExists": true,
+      "rawFileCount": 16,
+      "screenshotsDirExists": true,
+      "screenshotCount": 2
+    },
+    {
+      "slug": "nvidia-nim",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "openai",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "openrouter",
+      "rawDirExists": false,
+      "rawFileCount": 0,
+      "screenshotsDirExists": false,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "siliconflow",
+      "rawDirExists": true,
+      "rawFileCount": 11,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "sophnet",
+      "rawDirExists": false,
+      "rawFileCount": 0,
+      "screenshotsDirExists": false,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "tencent-hunyuan",
+      "rawDirExists": true,
+      "rawFileCount": 4,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "volcengine-ark",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": true,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "xiaomi-mimo",
+      "rawDirExists": true,
+      "rawFileCount": 1,
+      "screenshotsDirExists": false,
+      "screenshotCount": 0
+    },
+    {
+      "slug": "zhipu-bigmodel",
+      "rawDirExists": true,
+      "rawFileCount": 8,
+      "screenshotsDirExists": true,
+      "screenshotCount": 3
+    }
+  ],
+  "manualReview": [
+    "Confirm whether tencent-cloud should be fully merged into tencent-hunyuan or retained as legacy evidence.",
+    "Confirm whether xunfei-spark is old alias of iflytek-spark; recommended merge into iflytek-spark.",
+    "Decide whether to create metadata.json per platform now or after next collection round.",
+    "Normalize deal storage to top-level deals[] before adding new activity data."
+  ]
+}

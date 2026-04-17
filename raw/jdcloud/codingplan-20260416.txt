@@ -1,0 +1,27 @@
+来源页面：https://www.jdcloud.com/cn/pages/codingplan
+采集日期：2026-04-16
+
+核心证据：
+- 京东云 Coding Plan 特惠页面
+- Coding Plan Lite
+- 每天10:30开抢，每月最多18,000次请求，适合轻度开发者，满足日常基础代码辅助需求
+- productPrice:"19.9"
+- originalPrice:"原价：40元/1个月"
+- buyConditionsOneDesc:"DeepSeek、GLM、MiniMax 、Qwen3-Coder、Kimi等"
+- buyConditionsTwoDesc:"Claude Code、OpenCode、OpenClaw、Roo Code、Cursor"
+- beforeSaleBtn:"未开售，点击预约"
+
+- Coding Plan Pro
+- 每天10:30开抢，每月最多90,000次请求，适合重度开发者，享更高的调用额度与极速体验
+- productPrice:"99.9"
+- originalPrice:"原价：200元/1个月"
+- buyConditionsOneDesc:"享受 Lite 套餐的全部能力与权益"
+- buyConditionsTwoDesc:"Lite 版的 5 倍用量"
+- beforeSaleBtn:"未开售 点击预约"
+
+补充证据：
+- 产品首购,可购1个
+- 购买入口：https://joybuilder-console.jdcloud.com/system/subscribe/list
+- 产品页：https://www.jdcloud.com/cn/products/jdaip
+- 文档页：https://docs.jdcloud.com/cn/jdaip/Quickstart
+- 文档中包含：订阅 Coding Plan / 创建 Coding Plan 专属 APIKey / OpenClaw / Claude Code

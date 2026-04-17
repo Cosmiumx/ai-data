@@ -130,3 +130,77 @@ data/
 ---
 
 *创建时间：2026-03-25*
+
+## 通用采集探针流程（2026-04-14）
+
+目标：不为单个平台写定制采集逻辑，统一用“发现候选页 → 抽取候选优惠 → 人审 → 落库 → 校验”的流程。
+
+### 1) 采集候选，不落库
+
+```bash
+python3 scripts/generic_deal_probe.py collect aliyun-bailian --max-pages 3
+```
+
+多平台批量测试：
+
+```bash
+python3 scripts/generic_deal_probe.py collect aliyun-bailian tencent-hunyuan baidu-qianfan --max-pages 3
+```
+
+输出位置：
+
+- 单平台：`data/raw/evidence/{slug}-probe-YYYYMMDD.json`
+- 多平台：`data/raw/evidence/generic-probe-YYYYMMDD.json`
+
+### 2) 审核 JSON
+
+重点看：
+
+- `pages[]`：实际抓取过的页面、原始 HTML 路径、候选链接
+- `candidates[]`：原始候选句子、推荐类型、置信度
+- `reviewDeals[]`：可落库的候选 deal 模板
+
+`reviewDeals[]` 默认都带：
+
+```json
+{
+  "isPublished": false,
+  "needsHumanReview": true
+}
+```
+
+确认前不要直接发布。
+
+### 3) 人工修订后落库
+
+可以在 probe JSON 中把确认后的列表整理到 `approvedDeals`，然后执行：
+
+```bash
+python3 scripts/generic_deal_probe.py apply data/raw/evidence/{slug}-probe-YYYYMMDD.json --publish
+```
+
+说明：
+
+- 如果存在 `approvedDeals`，优先落库 `approvedDeals`
+- 否则使用 `reviewDeals`
+- `--publish` 会把 `isPublished` 置为 `true`
+- 落库后自动运行 `python3 scripts/collect_ai_deals.py validate`
+
+### 4) 当前稳定性结论
+
+已测试平台：
+
+- `aliyun-bailian`：能发现免费 tokens、资源包、定价相关候选
+- `tencent-hunyuan`：能发现新客体验、领取入口、定价/活动入口
+- `baidu-qianfan`：能发现 tokens 免费领、免费试用、Coding Plan 相关线索
+- `siliconflow`：能发现价格页、试用、邀请代金券线索
+- `minimax`：能发现定价、订阅、token 套餐线索
+- `zhipu-bigmodel`：官网首页信号弱，需要更多候选页发现能力
+
+### 5) 后续优化方向
+
+- 增强二级页发现，尤其是官网首页没有活动信息的平台
+- 增加搜索引擎发现：`site:domain 优惠 OR 免费 OR 试用 OR pricing`
+- 增加截图证据保存
+- 增加报告模式：输出成功、失败、需登录、需人工确认项
+- 增加去重合并，避免同一优惠被多句文案拆成多条

@@ -1,0 +1,24 @@
+{
+  "platform": "platform-slug",
+  "status": "confirmed|partial|blocked",
+  "sourceUrls": [],
+  "deals": [
+    {
+      "title": "",
+      "dealType": "DISCOUNT|LIMITED_FREE|SUBSCRIPTION",
+      "dealUrl": "",
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "CNY",
+      "discountText": "",
+      "limits": {},
+      "supportedModels": [],
+      "supportedTools": [],
+      "rules": [],
+      "status": "ACTIVE|SOLD_OUT|UNKNOWN",
+      "evidence": [],
+      "collectedAt": "YYYY-MM-DD"
+    }
+  ],
+  "blockedReason": null
+}

@@ -1,0 +1,83 @@
+{
+  "platform": {
+    "slug": "aliyun-bailian",
+    "name": "阿里云百炼",
+    "websiteUrl": "https://www.aliyun.com/product/bailian"
+  },
+  "collectedAt": "2026-04-14",
+  "sourceNotes": [
+    "通过可见浏览器扫码登录链路进入百炼控制台 Coding Plan 页面",
+    "CDP 读取到登录后页面标题：大模型服务平台百炼控制台",
+    "公开活动页/历史证据保留为辅助来源"
+  ],
+  "deals": [
+    {
+      "title": "新用户免费体验额度",
+      "description": "新用户零门槛领取超7000万tokens，90天超长有效期。支持千问系列大模型和国内优质开源三方大模型。",
+      "dealType": "LIMITED_FREE",
+      "discountText": "7000万tokens免费",
+      "originalPrice": null,
+      "discountedPrice": null,
+      "currency": "CNY",
+      "couponCode": null,
+      "dealUrl": "https://bailian.console.aliyun.com/?tab=model#/model-usage/free-quota",
+      "modelSlug": null,
+      "status": "ACTIVE",
+      "startsAt": null,
+      "expiresAt": null,
+      "isPublished": true,
+      "collectedAt": "2026-04-14"
+    },
+    {
+      "title": "大模型全量抵扣套餐-入门版",
+      "description": "50元抵100元，抵扣阿里云全系大模型，支持跨模型抵扣。消费1个月，当月抵20元，最高省50%。",
+      "dealType": "DISCOUNT",
+      "discountText": "50元抵100元",
+      "originalPrice": 100,
+      "discountedPrice": 50,
+      "currency": "CNY",
+      "couponCode": null,
+      "dealUrl": "https://www.aliyun.com/activity/new",
+      "modelSlug": null,
+      "status": "ACTIVE",
+      "startsAt": null,
+      "expiresAt": null,
+      "isPublished": true,
+      "collectedAt": "2026-04-14"
+    },
+    {
+      "title": "大模型全量抵扣套餐-进阶版",
+      "description": "250元抵500元，抵扣阿里云全系大模型，支持跨模型抵扣。消费3个月，每月抵20元，最高省55%。",
+      "dealType": "DISCOUNT",
+      "discountText": "250元抵500元",
+      "originalPrice": 500,
+      "discountedPrice": 250,
+      "currency": "CNY",
+      "couponCode": null,
+      "dealUrl": "https://www.aliyun.com/activity/new",
+      "modelSlug": null,
+      "status": "ACTIVE",
+      "startsAt": null,
+      "expiresAt": null,
+      "isPublished": true,
+      "collectedAt": "2026-04-14"
+    },
+    {
+      "title": "Coding Plan Pro 高级套餐",
+      "description": "专为专业 AI Coding 场景打造的订阅服务，适合大型开发任务需求；可接入 Claude Code、Qwen Code、Qoder、Cline、OpenClaw 等主流 AI 开发工具，支持千问、GLM、Kimi、MiniMax 等模型。",
+      "dealType": "DISCOUNT",
+      "discountText": "¥200/月，每月最多90,000次请求额度，当前暂时售罄",
+      "originalPrice": null,
+      "discountedPrice": 200,
+      "currency": "CNY",
+      "couponCode": null,
+      "dealUrl": "https://bailian.console.aliyun.com/cn-beijing/?tab=coding-plan#/efm/coding-plan-index",
+      "modelSlug": null,
+      "status": "SOLD_OUT",
+      "startsAt": null,
+      "expiresAt": null,
+      "isPublished": true,
+      "collectedAt": "2026-04-14"
+    }
+  ]
+}
